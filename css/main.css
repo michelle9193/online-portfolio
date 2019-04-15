@@ -91,7 +91,7 @@ img {
     color: #f0ffff; }
 
 .my-skills-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/confetti-1637197_1280.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/confetti-1637197_1280.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -119,7 +119,7 @@ img {
 
 .portfolio-section {
   background-color: #333B50;
-  height: 600px; }
+  height: 640px; }
   .portfolio-section section {
     position: relative;
     width: 50%; }
@@ -159,6 +159,31 @@ img {
 
 .container:hover .overlay {
   opacity: 1; }
+
+.contact-me {
+  height: 150px;
+  text-align: center;
+  padding-top: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/abstract-background-beach-634548.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .contact-me i {
+    font-size: 40px;
+    margin: 30px;
+    color: #f0ffff; }
+    .contact-me i:hover {
+      color: #000; }
+
+footer {
+  background-color: #909AB5;
+  height: 60px;
+  padding-top: 30px; }
+  footer p {
+    color: #000;
+    margin: 0;
+    text-align: center;
+    font-weight: bold; }
 
 .my-skills {
   display: grid;

@@ -86,7 +86,7 @@
 
 .portfolio-section {
     background-color: #333B50;
-    height: 600px;
+    height: 640px;
     section {
         position: relative;
         width: 50%;
@@ -138,6 +138,34 @@
 }
 
 
+.contact-me {
+    height: 150px;
+    text-align: center;
+    padding-top: 20px;
+    background-image:linear-gradient($color-shadow, $color-shadow), url(/images/abstract-background-beach-634548.jpg);   
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    i {
+        font-size: 40px;
+        margin: 30px;
+        color: $color-text-light;
+        &:hover {
+            color: $color-text-dark;
+        }
+    }
+}
 
+footer {
+    background-color: #909AB5;
+    height: 60px;
+    padding-top: 30px;
+    p {
+        color: $color-text-dark;
+        margin: 0;
+        text-align: center;
+        font-weight: bold;
+    }
+}
 
 
