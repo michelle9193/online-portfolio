@@ -117,15 +117,48 @@ img {
   width: 1000px;
   padding: 70px 0; }
 
-.projects {
-  width: 1300px;
-  margin: auto; }
-  .projects img {
-    height: 200px; }
-
 .portfolio-section {
   background-color: #333B50;
   height: 600px; }
+  .portfolio-section section {
+    position: relative;
+    width: 50%; }
+    .portfolio-section section.projects {
+      height: 200px;
+      width: 1300px;
+      margin: auto; }
+      .portfolio-section section.projects div {
+        width: 436px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #000; }
+        .portfolio-section section.projects div button {
+          background-color: yellow;
+          border: none;
+          border-radius: 5px;
+          font-size: 20px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+          opacity: 1; }
+          .portfolio-section section.projects div button a {
+            text-decoration: none;
+            font-size: 15px; }
+      .portfolio-section section.projects section {
+        padding: 0;
+        width: 500px; }
+
+.container:hover .overlay {
+  opacity: 1; }
 
 .my-skills {
   display: grid;

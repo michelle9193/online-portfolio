@@ -84,17 +84,60 @@
     padding: 70px 0;
 }
 
-.projects {
-    width: 1300px;
-    margin: auto;
-    img {
-        height: 200px;
-        
-    }
-}
-
 .portfolio-section {
     background-color: #333B50;
     height: 600px;
+    section {
+        position: relative;
+        width: 50%;
+        &.projects {
+            height: 200px;
+            width: 1300px;
+            margin: auto;
+            div {
+                width: 436px;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                opacity: 0;
+                transition: .5s ease;
+                background-color: $color-text-dark;
+
+                button { 
+                    background-color: yellow;
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 20px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    -webkit-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+                    opacity: 1;
+                    a {
+                        text-decoration: none;
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            section {
+                padding: 0;
+                width: 500px;
+            }
+        }
+    }
 }
+
+  .container:hover .overlay {
+    opacity: 1;
+}
+
+
+
+
 
