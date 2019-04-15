@@ -2,7 +2,7 @@
 @import "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
 @import "https://fonts.googleapis.com/css?family=Raleway|Righteous|Oswald|Abel|Muli:900|Titillium+Web:900";
 @import "https://use.fontawesome.com/releases/v5.8.1/css/all.css";
-body {
+html {
   font-family: 'Raleway';
   scroll-behavior: smooth; }
 
@@ -76,7 +76,7 @@ img {
   background-position: center; }
   .hero section {
     margin-top: 90px;
-    margin-left: 408px; }
+    margin-left: 160px; }
   .hero span {
     color: yellow; }
   .hero p {
@@ -96,6 +96,24 @@ img {
   left: 11.5%; }
   .about-me-block p {
     color: #f0ffff; }
+  .about-me-block div {
+    text-align: center;
+    padding-top: 30px; }
+    .about-me-block div button {
+      background-color: #909AB5;
+      opacity: 0.8;
+      border: none;
+      margin: auto;
+      padding: 10px;
+      border-radius: 5px;
+      width: 140px; }
+      .about-me-block div button a {
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+        margin: auto; }
+        .about-me-block div button a:hover {
+          color: yellow; }
 
 .my-skills-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/confetti-1637197_1280.jpg);
@@ -168,10 +186,10 @@ img {
   opacity: 1; }
 
 .contact-me {
-  height: 150px;
+  height: 140px;
   text-align: center;
   padding-top: 20px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/abstract-background-beach-634548.jpg);
+  background-image: url(/images/abstract-architecture-building-exterior-593158.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -184,13 +202,12 @@ img {
 
 footer {
   background-color: #909AB5;
-  height: 60px;
-  padding-top: 30px; }
+  height: 50px;
+  padding-top: 20px; }
   footer p {
     color: #000;
     margin: 0;
-    text-align: center;
-    font-weight: bold; }
+    text-align: center; }
 
 #myBtn {
   display: none;

@@ -30,7 +30,7 @@
 
     section {
         margin-top: 90px;
-        margin-left: 408px
+        margin-left: 160px
     }
 
     span {
@@ -54,10 +54,31 @@
     position: absolute;
     top: 114%;
     left: 11.5%;
-      
-
     p {
         color: $color-text-light;
+    }
+    div {
+        text-align: center;
+        padding-top: 30px;
+      button {
+        background-color: $color-text-blue;
+        opacity: 0.8;
+        border: none;
+        margin: auto;
+        padding: 10px;
+        border-radius: 5px;
+        width: 140px;
+        a {
+            text-decoration: none;
+            color: $color-text-dark;
+            font-weight: bold;
+            margin: auto;
+            &:hover {
+                color: yellow;
+
+            }
+            }
+        }
     }
 }
 
@@ -150,10 +171,10 @@
 
 
 .contact-me {
-    height: 150px;
+    height: 140px;
     text-align: center;
     padding-top: 20px;
-    background-image:linear-gradient($color-shadow, $color-shadow), url(/images/abstract-background-beach-634548.jpg);   
+    background-image: url(/images/abstract-architecture-building-exterior-593158.jpg);   
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -169,13 +190,12 @@
 
 footer {
     background-color: #909AB5;
-    height: 60px;
-    padding-top: 30px;
+    height: 50px;
+    padding-top: 20px;
     p {
         color: $color-text-dark;
         margin: 0;
         text-align: center;
-        font-weight: bold;
     }
 }
 
