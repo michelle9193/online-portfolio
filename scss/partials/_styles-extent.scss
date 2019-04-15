@@ -12,10 +12,21 @@
     font-weight: 500;
 }
 
+
+
+.nav-link:hover {
+    position: relative;
+    border-bottom: 2px dotted yellow;
+    height: 40px;
+}
+
 .hero {
-    height: 818px;
-    background-color: #909AB5;
-    position: static;
+    height: 800px;
+    background-image: linear-gradient($color-shadow-light, $color-shadow-light), url(/images/bg-image.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
 
     section {
         margin-top: 90px;
@@ -37,13 +48,12 @@
 
 .about-me-block {
     background-color: #333B50;
-    width: 800px;
-    height: 300px;
-    margin: auto;
+    padding: 30px;
+    width: 700px;
+    height: 200px;
     position: absolute;
     top: 100%;
-    left: 0;
-    right: 0;
+    
 
     p {
         color: $color-text-light;
@@ -169,3 +179,22 @@ footer {
 }
 
 
+// Back to top button
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #c9b3a4;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
