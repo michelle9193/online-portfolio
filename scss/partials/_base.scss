@@ -1,0 +1,55 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css';
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css';
+@import 'https://fonts.googleapis.com/css?family=Raleway|Righteous|Oswald|Abel|Muli:900|Titillium+Web:900';
+@import 'https://use.fontawesome.com/releases/v5.8.1/css/all.css';
+
+
+body {
+    font-family: 'Raleway';
+    scroll-behavior: smooth;
+}
+
+nav {
+    margin: 0;
+}
+
+h1 {
+    width: 450px;
+    word-wrap: break-word;
+    text-transform: uppercase;
+    color: $color-text-light;
+    font-family: 'Titillium Web';
+    letter-spacing: 10px;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'Titillium Web';
+    color: $color-text-light;
+    opacity: 0.8;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 80px;
+    letter-spacing: 5px;
+    height: 250px;
+}
+
+h3 {
+    font-family: 'Raleway';
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 12px;   
+    font-size: 30px;
+    color: #778FAB;
+    margin: 0;
+} 
+
+h4 {
+    color: rgb(152, 173, 194);
+    font-family: 'Raleway';
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-top: 15px;
+}

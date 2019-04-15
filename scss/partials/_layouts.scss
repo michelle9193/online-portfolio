@@ -1,0 +1,14 @@
+.my-skills {
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: repeat(4, 100px);
+
+}
+
+.experience-section {
+    display: grid;
+    grid-gap: 1.25rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "education experience"
+}

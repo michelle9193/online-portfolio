@@ -1,0 +1,16 @@
+
+// ==========================================================================
+// Global Imports
+// ==========================================================================
+
+@import 'partials/variables',
+        'partials/mixins',
+        'partials/base',
+        'partials/components',
+        'partials/styles-extent',
+        'partials/responsive',
+        'partials/layouts';
+
+
+// partials let you split your stylesheet into separate files. They help modularize your CSS and keep things  // easier to maintain. Each partial is a single file and is like a small piece of the big CSS puzzle;
+// it contains a portion of your stylesheet.

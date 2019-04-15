@@ -1,0 +1,90 @@
+.navbar-brand {
+    width: 30%; 
+    .logo {
+        width: 20%;
+    }
+}
+
+.nav-item {
+    text-transform: uppercase;
+    margin-right: 40px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.hero {
+    height: 818px;
+    background-color: #909AB5;
+    position: static;
+
+    section {
+        margin-top: 90px;
+        margin-left: 408px
+    }
+
+    span {
+        color: yellow;
+    }
+
+    p {
+        margin-top: 30px;
+        font-family: 'Abel';
+        color: $color-text-light;
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+}
+
+.about-me-block {
+    background-color: #333B50;
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+
+    p {
+        color: $color-text-light;
+    }
+}
+
+.my-skills-section {
+    background-image: linear-gradient($color-shadow, $color-shadow ), url(/images/confetti-1637197_1280.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 650px; 
+    
+    div {
+        margin: auto;
+        width: 710px;
+        &.skills {
+            text-align: center;
+        }
+    }
+
+    i {
+        font-size: 40px;
+        border: black solid 3px;
+        margin: auto;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        padding: 30px 20px;
+        border-radius: 50%;
+        background-color: rgba(128, 128, 128, .5);
+    }
+}
+
+.experience-section {
+    margin: 0 auto;
+    width: 1000px;
+    padding: 70px 0;
+}
+
+.portfolio-section {
+    background-color: #333B50;
+    height: 600px;
+}
