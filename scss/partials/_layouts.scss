@@ -12,3 +12,9 @@
     grid-template-areas: 
         "education experience"
 }
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 430px);
+   
+}

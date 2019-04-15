@@ -51,7 +51,7 @@
 }
 
 .my-skills-section {
-    background-image: url(images/confetti-1637197_1280.jpg);
+    background-image: linear-gradient($color-shadow, $color-shadow ), url(/images/confetti-1637197_1280.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -84,7 +84,17 @@
     padding: 70px 0;
 }
 
+.projects {
+    width: 1300px;
+    margin: auto;
+    img {
+        height: 200px;
+        
+    }
+}
+
 .portfolio-section {
     background-color: #333B50;
     height: 600px;
 }
+

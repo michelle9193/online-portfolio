@@ -46,6 +46,11 @@ h4 {
   letter-spacing: 5px;
   padding-top: 15px; }
 
+img {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%; }
+
 .navbar-brand {
   width: 30%; }
   .navbar-brand .logo {
@@ -86,7 +91,7 @@ h4 {
     color: #f0ffff; }
 
 .my-skills-section {
-  background-image: url(images/confetti-1637197_1280.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/confetti-1637197_1280.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -112,6 +117,12 @@ h4 {
   width: 1000px;
   padding: 70px 0; }
 
+.projects {
+  width: 1300px;
+  margin: auto; }
+  .projects img {
+    height: 200px; }
+
 .portfolio-section {
   background-color: #333B50;
   height: 600px; }
@@ -126,5 +137,9 @@ h4 {
   grid-gap: 1.25rem;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "education experience"; }
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 430px); }
 
 /*# sourceMappingURL=main.css.map */
