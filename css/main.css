@@ -68,7 +68,7 @@ img {
   height: 40px; }
 
 .hero {
-  height: 800px;
+  height: 806px;
   background-image: linear-gradient(rgba(144, 154, 181, 0.7), rgba(144, 154, 181, 0.7)), url(/images/bg-image.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -92,7 +92,8 @@ img {
   width: 700px;
   height: 200px;
   position: absolute;
-  top: 100%; }
+  top: 114%;
+  left: 11.5%; }
   .about-me-block p {
     color: #f0ffff; }
 

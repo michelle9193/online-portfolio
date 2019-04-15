@@ -21,7 +21,7 @@
 }
 
 .hero {
-    height: 800px;
+    height: 806px;
     background-image: linear-gradient($color-shadow-light, $color-shadow-light), url(/images/bg-image.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -52,8 +52,9 @@
     width: 700px;
     height: 200px;
     position: absolute;
-    top: 100%;
-    
+    top: 114%;
+    left: 11.5%;
+      
 
     p {
         color: $color-text-light;
