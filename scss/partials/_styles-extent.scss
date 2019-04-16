@@ -95,7 +95,6 @@
     div {
         margin: auto;
         width: 330px;
-        
     }
 
     i {
@@ -109,21 +108,22 @@
         border-radius: 50%;
         background-color: #80808080;
         
-        
         p {
-            text-align: center;
-            font-size: 20px;
+            font-size: 14px;
             margin-top: 50px;
-            &.hover-text {
-                visibility: hidden;
-            }
+            text-align: center;
+            font-family: 'Raleway';
+            font-weight: bold;
+            display: none;
         }
     }
 }
 
 
-.my-skills:hover ~ #hover-text {
-    visibility: visible;        
+i:hover  p {
+    display: block;
+    transition-duration: 5s;
+  transition-delay: 2s;
 }
 
 
@@ -239,5 +239,8 @@
         }
     }
 }
+
+
+
 
 

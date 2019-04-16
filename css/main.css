@@ -33,7 +33,6 @@ h2 {
     height: 200px; }
 
 h3 {
-  font-family: 'Raleway';
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 12px;
@@ -170,14 +169,17 @@ footer {
     border-radius: 50%;
     background-color: #80808080; }
     .my-skills-section i p {
+      font-size: 14px;
+      margin-top: 50px;
       text-align: center;
-      font-size: 20px;
-      margin-top: 50px; }
-      .my-skills-section i p.hover-text {
-        visibility: hidden; }
+      font-family: 'Raleway';
+      font-weight: bold;
+      display: none; }
 
-.my-skills:hover ~ #hover-text {
-  visibility: visible; }
+i:hover p {
+  display: block;
+  transition-duration: 5s;
+  transition-delay: 2s; }
 
 .experience-section {
   margin: 0 auto;
