@@ -16,7 +16,7 @@
 
 .nav-link:hover {
     position: relative;
-    border-bottom: 2px dotted yellow;
+    border-bottom: 2px dotted $color-prim;
     height: 40px;
 }
 
@@ -34,7 +34,7 @@
     }
 
     span {
-        color: yellow;
+        color: $color-prim;
     }
 
     p {
@@ -47,7 +47,7 @@
 }
 
 .about-me-block {
-    background-color: #333B50;
+    background-color: $cloud-burst;
     padding: 30px;
     width: 700px;
     height: 200px;
@@ -74,8 +74,7 @@
             font-weight: bold;
             margin: auto;
             &:hover {
-                color: yellow;
-
+                color: $color-prim;
             }
             }
         }
@@ -88,6 +87,7 @@
     background-size: cover; 
     height: 650px; 
     background-position: center;
+    border-bottom: 1px solid $color-prim;
     
     div {
         margin: auto;
@@ -99,14 +99,14 @@
 
     i {
         font-size: 40px;
-        border: black solid 3px;
+        border: $color-text-dark solid 3px;
         margin: auto;
         width: 100px;
         height: 100px;
         text-align: center;
         padding: 30px 20px;
         border-radius: 50%;
-        background-color: rgba(128, 128, 128, .5);
+        background-color: #80808080;
     }
 }
 
@@ -120,13 +120,19 @@
         line-height: 30px;
     }
 
+        p:nth-of-type(even) {
+            height: 55px;
+        }
+    
+
+
     div:nth-of-type(even) {
         margin-left: 50px;
     }
 }
 
 .portfolio-section {
-    background-color: #333B50;
+    background-color: $cloud-burst;
     height: 640px;
     section {
         position: relative;
@@ -136,7 +142,7 @@
             width: 1300px;
             margin: auto;
             div {
-                width: 436px;
+                width: 430px;
                 position: absolute;
                 top: 0;
                 bottom: 0;
@@ -147,12 +153,14 @@
                 background-color: $color-text-dark;
 
                 button { 
-                    background-color: yellow;
+                    background-color: $color-text-light;
+                    padding: 5px;
+                    width: 100px;
                     border: none;
-                    border-radius: 5px;
+                    border-radius: 2px;
                     font-size: 20px;
                     position: absolute;
-                    top: 50%;
+                    top: 70%;
                     left: 50%;
                     -webkit-transform: translate(-50%, -50%);
                     -ms-transform: translate(-50%, -50%);
@@ -162,6 +170,7 @@
                     a {
                         text-decoration: none;
                         font-size: 15px;
+                        color: $color-text-dark;
                     }
                 }
             }
@@ -175,36 +184,54 @@
 }
 
   .container:hover .overlay {
-    opacity: 1;
+    opacity: 0.9;
 }
 
-
 .contact-me {
-    height: 140px;
+    height: 160px;
     text-align: center;
     padding-top: 20px;
-    background-image: url(../images/abstract-architecture-building-exterior-593158.jpg);   
-    background-attachment: fixed;
+    background-image: linear-gradient($color-shadow-light, $color-shadow-light), url(../images/qd6ZpU.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
     i {
-        font-size: 40px;
+        font-size: 30px;
         margin: 30px;
         color: $color-text-light;
+        border-radius: 50%;
+        background-color: $cloud-burst;
+        height: 60px;
+        width: 60px;
+        padding: 16px;
         &:hover {
-            color: $color-text-dark;
+            background-color: $color-prim;
+            height: 60px;
+            color:  $cloud-burst;
+        }
+    }
+
+    .menu-items {
+        font-size: 17px;
+        word-spacing: 30px;
+        a {
+            color: $color-prim;
+            text-decoration: none;
+            font-weight: bold;
+            letter-spacing: 3px;
+
         }
     }
 }
 
 footer {
-    background-color: #909AB5;
+    background-image: linear-gradient($color-shadow-light, $color-shadow-light), url(../images/qd6ZpU.jpg);
     height: 50px;
     padding-top: 20px;
     p {
-        color: $color-text-dark;
+        color: $color-text-light;
         margin: 0;
         text-align: center;
+        letter-spacing: 1px;
     }
 }
 
