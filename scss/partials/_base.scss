@@ -26,13 +26,16 @@ h1 {
 h2 {
     font-family: 'Titillium Web';
     color: $color-text-light;
-    opacity: 0.8;
     text-transform: uppercase;
     text-align: center;
     padding-top: 60px;
-    font-size: 80px;
+    font-size: 60px;
     letter-spacing: 5px;
     height: 250px;
+    &.skills {
+        color: #333B50;
+        height: 200px;       
+    }
 }
 
 h3 {

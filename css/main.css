@@ -21,13 +21,15 @@ h1 {
 h2 {
   font-family: 'Titillium Web';
   color: #f0ffff;
-  opacity: 0.8;
   text-transform: uppercase;
   text-align: center;
   padding-top: 60px;
-  font-size: 80px;
+  font-size: 60px;
   letter-spacing: 5px;
   height: 250px; }
+  h2.skills {
+    color: #333B50;
+    height: 200px; }
 
 h3 {
   font-family: 'Raleway';
@@ -117,14 +119,14 @@ img {
           color: yellow; }
 
 .my-skills-section {
-  background-image: url(../images/abstract-architecture-building-exterior-593158.jpg);
-  background-attachment: fixed;
+  background-image: url(../images/computer-device-electronics-872958.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 650px; }
+  height: 650px;
+  background-position: center; }
   .my-skills-section div {
     margin: auto;
-    width: 710px; }
+    width: 450px; }
     .my-skills-section div.skills {
       text-align: center; }
   .my-skills-section i {
