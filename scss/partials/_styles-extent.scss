@@ -7,8 +7,8 @@
 
 .nav-item {
     text-transform: uppercase;
-    margin-right: 40px;
-    letter-spacing: 1px;
+    margin-right: 2.5rem;
+    letter-spacing: 0.0625rem;
     font-weight: 500;
 }
 
@@ -16,12 +16,12 @@
 
 .nav-link:hover {
     position: relative;
-    border-bottom: 2px dotted $color-prim;
-    height: 40px;
+    border-bottom: 0.125rem dotted $color-prim;
+    height: 2.5rem;
 }
 
 .hero {
-    height: 806px;
+    height: 50.375rem;
     background-image: linear-gradient($color-shadow-light, $color-shadow-light), url(../images/bg-image.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -29,8 +29,8 @@
     background-position: center;
 
     section {
-        margin-top: 90px;
-        margin-left: 160px
+        margin-top: 5.625rem;
+        margin-left: 10rem
     }
 
     span {
@@ -38,39 +38,39 @@
     }
 
     p {
-        margin-top: 30px;
+        margin-top: 1.875rem;
         font-family: 'Abel';
         color: $color-text-light;
-        font-size: 25px;
-        letter-spacing: 3px;
+        font-size: 1.5625rem;
+        letter-spacing: 0.1875rem;
     }
 }
 
 .about-me-block {
     background-color: $cloud-burst;
-    border: 1px dotted $color-text-light;
-    padding: 18px;
-    width: 700px;
-    height: 200px;
+    border: 0.0625rem dotted $color-text-light;
+    padding: 1.125rem;
+    width: 43.75rem;
+    height: 12.5rem;
     position: absolute;
     top: 114%;
     left: 11.5%;
     p {
         color: $color-text-light;
         font-family: 'Abel';
-        font-size: 22px;
+        font-size: 1.375rem;
     }
     div {
         text-align: center;
-        padding-top: 20px;
+        padding-top: 1.25rem;
       button {
         background-color: $color-text-blue;
         opacity: 0.8;
         border: none;
         margin: auto;
-        padding: 10px;
-        border-radius: 5px;
-        width: 140px;
+        padding: 0.625rem;
+        border-radius: 0.3125rem;
+        width: 8.75rem;
         &.pulse {
             animation-name: pulse_animation;
             animation-duration: 5000ms;
@@ -106,23 +106,23 @@
     background-image: url(../images/computer-device-electronics-872958.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
-    height: 650px; 
+    height: 40.625rem; 
     background-position: center;
-    border-bottom: 1px solid $color-prim;
+    border-bottom: 0.0625rem solid $color-prim;
     
     div {
         margin: auto;
-        width: 330px;
+        width: 20.625rem;
     }
 
     i {
-        font-size: 40px;
-        border: $color-text-dark solid 3px;
+        font-size: 2.5rem;
+        border: $color-text-dark solid 0.1875rem;
         margin: auto;
-        width: 100px;
-        height: 100px;
+        width: 6.25rem;
+        height: 6.25rem;
         text-align: center;
-        padding: 30px 20px;
+        padding: 1.875rem 1.25rem;
         border-radius: 50%;
         background-color: #80808080;
         &:hover {
@@ -136,8 +136,8 @@
         }
         
         p {
-            font-size: 14px;
-            margin-top: 50px;
+            font-size: 0.875rem;
+            margin-top: 3.125rem;
             text-align: center;
             font-family: 'Raleway';
             font-weight: bold;
@@ -147,40 +147,37 @@
 }
 
 
-
-
-
 .experience-section {
     margin: 0 auto;
-    width: 800px;
-    padding: 70px 0;
+    width: 50rem;
+    padding: 4.375rem 0;
     
     p:nth-of-type(odd) {
         font-weight: bold;
-        line-height: 30px;
+        line-height: 1.875rem;
     }
 
         p:nth-of-type(even) {
-            height: 55px;
+            height: 3.4375rem;
         }
     
         div:nth-of-type(even) {
-        margin-left: 50px;
+        margin-left: 3.125rem;
     }
 }
 
 .portfolio-section {
     background-color: $cloud-burst;
-    height: 640px;
+    height: 40rem;
     section {
         position: relative;
         width: 50%;
         &.projects {
-            height: 200px;
-            width: 1300px;
+            height: 12.5rem;
+            width: 81.25rem;
             margin: auto;
             div {
-                width: 430px;
+                width: 26.875rem;
                 position: absolute;
                 top: 0;
                 bottom: 0;
@@ -192,16 +189,16 @@
                 p {
                     color: $color-text-light;
                     text-align: center;
-                    margin-top: 40px;
+                    margin-top: 2.5rem;
                 }
 
                 button { 
                     background-color: $color-text-light;
                     padding: 0;
-                    width: 100px;
+                    width: 6.25rem;
                     border: none;
-                    border-radius: 2px;
-                    font-size: 20px;
+                    border-radius: 0.125rem;
+                    font-size: 1.25rem;
                     position: absolute;
                     top: 60%;
                     left: 50%;
@@ -212,7 +209,7 @@
                     opacity: 1;
                     a {
                         text-decoration: none;
-                        font-size: 15px;
+                        font-size: 0.9375rem;
                         color: $color-text-dark;
                     }
                 }
@@ -220,7 +217,7 @@
 
             section {
                 padding: 0;
-                width: 430px;
+                width: 26.875rem;
             }
         }
     }
@@ -233,21 +230,21 @@
 }
 
 .contact-me {
-    height: 200px;
+    height: 12.5rem;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 1.25rem;
     background-image: linear-gradient($color-shadow-light, $color-shadow-light), url(../images/qd6ZpU.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
     i {
-        font-size: 30px;
-        margin: 30px;
+        font-size: 1.875rem;
+        margin: 1.875rem;
         color: $color-text-light;
         border-radius: 50%;
         background-color: $cloud-burst;
-        height: 60px;
-        width: 60px;
-        padding: 16px;
+        height: 3.75rem;
+        width: 3.75rem;
+        padding: 1rem;
         &:hover {
             background-color: $color-prim;
             color:  $cloud-burst;
@@ -255,13 +252,13 @@
     }
 
     .menu-items {
-        font-size: 17px;
-        word-spacing: 30px;
+        font-size: 1.0625rem;
+        word-spacing: 1.875rem;
         a {
             color: $color-prim;
             text-decoration: none;
             font-weight: bold;
-            letter-spacing: 3px;
+            letter-spacing: 0.1875rem;
 
         }
     }

@@ -1,7 +1,7 @@
 .my-skills {
     display: grid;
     grid-gap: 100px;
-    grid-template-columns: repeat(4, 100px);
+    grid-template-columns: repeat(4, 6.25rem);
 
 }
 
@@ -15,6 +15,6 @@
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(3, 430px);
+    grid-template-columns: repeat(3, 26.875rem);
    
 }

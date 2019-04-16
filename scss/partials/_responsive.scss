@@ -1,0 +1,68 @@
+// Media Queries
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+
+    h1 {
+        font-size: 65px;
+    }
+
+    h2 {
+        padding-top: 3.75rem;
+        font-size: 3.125rem;
+        letter-spacing: 0.25rem;
+        height: 9.375rem;
+    }
+
+    .hero {
+        height: 50rem;
+        background-image: linear-gradient($color-shadow-light, $color-shadow-light), url(../images/bg-image2.png); 
+        background-position: left;
+    }
+    .about-me-block {
+        border: none;
+        padding: 0.9375rem;
+        width: 37.8rem;
+        top: 129.5%;
+        left: 0;
+        p {
+            font-size: 1.25rem;
+        }
+    }
+
+    .my-skills-section {
+        height: 40rem;       
+        div {
+            margin: auto;
+            width: 20.625rem;
+            &.my-skills{
+                grid-gap: 5rem;
+            }
+        }
+    }
+    
+    .portfolio-section {
+        height: 50rem;
+        section {
+            position: relative;
+            grid-template-columns: repeat(1, 62.5rem);
+            height: 12.5rem;
+            &.projects {
+                height: 25rem;
+                width: 81.25rem;
+                margin: auto;
+                section {
+                   img {
+                        height: 500px;
+                        width: 500px;
+                    }
+                }
+            }
+        }
+    }
+    
+
+}
+
+

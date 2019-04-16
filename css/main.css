@@ -11,42 +11,42 @@ nav {
   margin: 0; }
 
 h1 {
-  width: 450px;
+  width: 28.125rem;
   word-wrap: break-word;
   text-transform: uppercase;
   color: #f0ffff;
   font-family: 'Titillium Web';
-  letter-spacing: 10px;
-  font-size: 80px; }
+  letter-spacing: 0.625rem;
+  font-size: 5rem; }
 
 h2 {
   font-family: 'Titillium Web';
   color: #f0ffff;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 60px;
-  font-size: 60px;
-  letter-spacing: 5px;
-  height: 250px; }
+  padding-top: 3.75rem;
+  font-size: 3.75rem;
+  letter-spacing: 0.3125rem;
+  height: 15.625rem; }
   h2.skills {
     color: #3d475f;
-    height: 200px; }
+    height: 12.5rem; }
 
 h3 {
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 12px;
-  font-size: 30px;
+  letter-spacing: 0.75rem;
+  font-size: 1.875rem;
   color: #778FAB;
   margin: 0; }
 
 h4 {
   color: #98adc2;
   font-family: 'Raleway';
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 0.625rem;
+  margin-bottom: 1.25rem;
   text-transform: uppercase;
-  letter-spacing: 5px; }
+  letter-spacing: 0.3125rem; }
 
 img {
   object-fit: cover;
@@ -55,29 +55,29 @@ img {
 
 footer {
   background: #3d475f;
-  height: 50px;
-  padding-top: 20px; }
+  height: 3.125rem;
+  padding-top: 1.25rem; }
   footer p {
     color: #f0ffff;
     margin: 0;
     text-align: center;
-    letter-spacing: 1px; }
+    letter-spacing: 0.0625rem; }
 
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 10px;
-  right: 30px;
+  bottom: 0.625rem;
+  right: 1.875rem;
   z-index: 99;
-  font-size: 18px;
+  font-size: 1.125rem;
   border: none;
   outline: none;
   cursor: pointer;
   background-color: #c9b3a4;
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: white;
   font-weight: bold; }
 
@@ -88,58 +88,58 @@ footer {
 
 .nav-item {
   text-transform: uppercase;
-  margin-right: 40px;
-  letter-spacing: 1px;
+  margin-right: 2.5rem;
+  letter-spacing: 0.0625rem;
   font-weight: 500; }
 
 .nav-link:hover {
   position: relative;
-  border-bottom: 2px dotted #ffff00c0;
-  height: 40px; }
+  border-bottom: 0.125rem dotted #ffff00c0;
+  height: 2.5rem; }
 
 .hero {
-  height: 806px;
+  height: 50.375rem;
   background-image: linear-gradient(rgba(144, 154, 181, 0.7), rgba(144, 154, 181, 0.7)), url(../images/bg-image.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
   .hero section {
-    margin-top: 90px;
-    margin-left: 160px; }
+    margin-top: 5.625rem;
+    margin-left: 10rem; }
   .hero span {
     color: #ffff00c0; }
   .hero p {
-    margin-top: 30px;
+    margin-top: 1.875rem;
     font-family: 'Abel';
     color: #f0ffff;
-    font-size: 25px;
-    letter-spacing: 3px; }
+    font-size: 1.5625rem;
+    letter-spacing: 0.1875rem; }
 
 .about-me-block {
   background-color: #3d475f;
-  border: 1px dotted #f0ffff;
-  padding: 18px;
-  width: 700px;
-  height: 200px;
+  border: 0.0625rem dotted #f0ffff;
+  padding: 1.125rem;
+  width: 43.75rem;
+  height: 12.5rem;
   position: absolute;
   top: 114%;
   left: 11.5%; }
   .about-me-block p {
     color: #f0ffff;
     font-family: 'Abel';
-    font-size: 22px; }
+    font-size: 1.375rem; }
   .about-me-block div {
     text-align: center;
-    padding-top: 20px; }
+    padding-top: 1.25rem; }
     .about-me-block div button {
       background-color: #909AB5;
       opacity: 0.8;
       border: none;
       margin: auto;
-      padding: 10px;
-      border-radius: 5px;
-      width: 140px; }
+      padding: 0.625rem;
+      border-radius: 0.3125rem;
+      width: 8.75rem; }
       .about-me-block div button.pulse {
         animation-name: pulse_animation;
         animation-duration: 5000ms;
@@ -175,20 +175,20 @@ footer {
   background-image: url(../images/computer-device-electronics-872958.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 650px;
+  height: 40.625rem;
   background-position: center;
-  border-bottom: 1px solid #ffff00c0; }
+  border-bottom: 0.0625rem solid #ffff00c0; }
   .my-skills-section div {
     margin: auto;
-    width: 330px; }
+    width: 20.625rem; }
   .my-skills-section i {
-    font-size: 40px;
-    border: #000 solid 3px;
+    font-size: 2.5rem;
+    border: #000 solid 0.1875rem;
     margin: auto;
-    width: 100px;
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
     text-align: center;
-    padding: 30px 20px;
+    padding: 1.875rem 1.25rem;
     border-radius: 50%;
     background-color: #80808080; }
     .my-skills-section i:hover {
@@ -198,8 +198,8 @@ footer {
       transition-duration: 5s;
       transition-delay: 2s; }
     .my-skills-section i p {
-      font-size: 14px;
-      margin-top: 50px;
+      font-size: 0.875rem;
+      margin-top: 3.125rem;
       text-align: center;
       font-family: 'Raleway';
       font-weight: bold;
@@ -207,28 +207,28 @@ footer {
 
 .experience-section {
   margin: 0 auto;
-  width: 800px;
-  padding: 70px 0; }
+  width: 50rem;
+  padding: 4.375rem 0; }
   .experience-section p:nth-of-type(odd) {
     font-weight: bold;
-    line-height: 30px; }
+    line-height: 1.875rem; }
   .experience-section p:nth-of-type(even) {
-    height: 55px; }
+    height: 3.4375rem; }
   .experience-section div:nth-of-type(even) {
-    margin-left: 50px; }
+    margin-left: 3.125rem; }
 
 .portfolio-section {
   background-color: #3d475f;
-  height: 640px; }
+  height: 40rem; }
   .portfolio-section section {
     position: relative;
     width: 50%; }
     .portfolio-section section.projects {
-      height: 200px;
-      width: 1300px;
+      height: 12.5rem;
+      width: 81.25rem;
       margin: auto; }
       .portfolio-section section.projects div {
-        width: 430px;
+        width: 26.875rem;
         position: absolute;
         top: 0;
         bottom: 0;
@@ -240,14 +240,14 @@ footer {
         .portfolio-section section.projects div p {
           color: #f0ffff;
           text-align: center;
-          margin-top: 40px; }
+          margin-top: 2.5rem; }
         .portfolio-section section.projects div button {
           background-color: #f0ffff;
           padding: 0;
-          width: 100px;
+          width: 6.25rem;
           border: none;
-          border-radius: 2px;
-          font-size: 20px;
+          border-radius: 0.125rem;
+          font-size: 1.25rem;
           position: absolute;
           top: 60%;
           left: 50%;
@@ -258,47 +258,92 @@ footer {
           opacity: 1; }
           .portfolio-section section.projects div button a {
             text-decoration: none;
-            font-size: 15px;
+            font-size: 0.9375rem;
             color: #000; }
       .portfolio-section section.projects section {
         padding: 0;
-        width: 430px; }
+        width: 26.875rem; }
 
 .container:hover .overlay {
   opacity: 0.9; }
 
 .contact-me {
-  height: 200px;
+  height: 12.5rem;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 1.25rem;
   background-image: linear-gradient(rgba(144, 154, 181, 0.7), rgba(144, 154, 181, 0.7)), url(../images/qd6ZpU.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
   .contact-me i {
-    font-size: 30px;
-    margin: 30px;
+    font-size: 1.875rem;
+    margin: 1.875rem;
     color: #f0ffff;
     border-radius: 50%;
     background-color: #3d475f;
-    height: 60px;
-    width: 60px;
-    padding: 16px; }
+    height: 3.75rem;
+    width: 3.75rem;
+    padding: 1rem; }
     .contact-me i:hover {
       background-color: #ffff00c0;
       color: #3d475f; }
   .contact-me .menu-items {
-    font-size: 17px;
-    word-spacing: 30px; }
+    font-size: 1.0625rem;
+    word-spacing: 1.875rem; }
     .contact-me .menu-items a {
       color: #ffff00c0;
       text-decoration: none;
       font-weight: bold;
-      letter-spacing: 3px; }
+      letter-spacing: 0.1875rem; }
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  h1 {
+    font-size: 65px; }
+
+  h2 {
+    padding-top: 3.75rem;
+    font-size: 3.125rem;
+    letter-spacing: 0.25rem;
+    height: 9.375rem; }
+
+  .hero {
+    height: 50rem;
+    background-image: linear-gradient(rgba(144, 154, 181, 0.7), rgba(144, 154, 181, 0.7)), url(../images/bg-image2.png);
+    background-position: left; }
+
+  .about-me-block {
+    border: none;
+    padding: 0.9375rem;
+    width: 37.8rem;
+    top: 129.5%;
+    left: 0; }
+    .about-me-block p {
+      font-size: 1.25rem; }
+
+  .my-skills-section {
+    height: 40rem; }
+    .my-skills-section div {
+      margin: auto;
+      width: 20.625rem; }
+      .my-skills-section div.my-skills {
+        grid-gap: 5rem; }
+
+  .portfolio-section {
+    height: 50rem; }
+    .portfolio-section section {
+      position: relative;
+      grid-template-columns: repeat(1, 62.5rem);
+      height: 12.5rem; }
+      .portfolio-section section.projects {
+        height: 25rem;
+        width: 81.25rem;
+        margin: auto; }
+        .portfolio-section section.projects section img {
+          height: 500px;
+          width: 500px; } }
 .my-skills {
   display: grid;
   grid-gap: 100px;
-  grid-template-columns: repeat(4, 100px); }
+  grid-template-columns: repeat(4, 6.25rem); }
 
 .experience-section {
   display: grid;
@@ -308,6 +353,6 @@ footer {
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(3, 430px); }
+  grid-template-columns: repeat(3, 26.875rem); }
 
 /*# sourceMappingURL=main.css.map */
