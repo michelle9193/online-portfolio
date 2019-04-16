@@ -1,7 +1,8 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css";
 @import "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
-@import "https://fonts.googleapis.com/css?family=Raleway|Righteous|Oswald|Abel|Muli:900|Titillium+Web:900";
+@import "https://fonts.googleapis.com/css?family=Raleway|Righteous|Oswald|Abel|Muli:900|Titillium+Web:900|Dancing+Script";
 @import "https://use.fontawesome.com/releases/v5.8.1/css/all.css";
+@import "https://unpkg.com/aos@2.3.1/dist/aos.css";
 html {
   font-family: 'Raleway';
   scroll-behavior: smooth; }
@@ -90,17 +91,20 @@ img {
 
 .about-me-block {
   background-color: #3d475f;
-  padding: 30px;
+  border: 1px dotted #f0ffff;
+  padding: 18px;
   width: 700px;
   height: 200px;
   position: absolute;
   top: 114%;
   left: 11.5%; }
   .about-me-block p {
-    color: #f0ffff; }
+    color: #f0ffff;
+    font-family: 'Abel';
+    font-size: 22px; }
   .about-me-block div {
     text-align: center;
-    padding-top: 30px; }
+    padding-top: 20px; }
     .about-me-block div button {
       background-color: #909AB5;
       opacity: 0.8;
@@ -126,9 +130,7 @@ img {
   border-bottom: 1px solid #ffff00; }
   .my-skills-section div {
     margin: auto;
-    width: 450px; }
-    .my-skills-section div.skills {
-      text-align: center; }
+    width: 330px; }
   .my-skills-section i {
     font-size: 40px;
     border: #000 solid 3px;
@@ -139,6 +141,15 @@ img {
     padding: 30px 20px;
     border-radius: 50%;
     background-color: #80808080; }
+    .my-skills-section i p {
+      text-align: center;
+      font-size: 20px;
+      margin-top: 50px; }
+      .my-skills-section i p.hover-text {
+        visibility: hidden; }
+
+.my-skills:hover ~ #hover-text {
+  visibility: visible; }
 
 .experience-section {
   margin: 0 auto;

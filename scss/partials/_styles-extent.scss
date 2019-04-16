@@ -48,7 +48,8 @@
 
 .about-me-block {
     background-color: $cloud-burst;
-    padding: 30px;
+    border: 1px dotted $color-text-light;
+    padding: 18px;
     width: 700px;
     height: 200px;
     position: absolute;
@@ -56,10 +57,12 @@
     left: 11.5%;
     p {
         color: $color-text-light;
+        font-family: 'Abel';
+        font-size: 22px;
     }
     div {
         text-align: center;
-        padding-top: 30px;
+        padding-top: 20px;
       button {
         background-color: $color-text-blue;
         opacity: 0.8;
@@ -91,10 +94,8 @@
     
     div {
         margin: auto;
-        width: 450px;
-        &.skills {
-            text-align: center;
-        }
+        width: 330px;
+        
     }
 
     i {
@@ -107,8 +108,24 @@
         padding: 30px 20px;
         border-radius: 50%;
         background-color: #80808080;
+        
+        
+        p {
+            text-align: center;
+            font-size: 20px;
+            margin-top: 50px;
+            &.hover-text {
+                visibility: hidden;
+            }
+        }
     }
 }
+
+
+.my-skills:hover ~ #hover-text {
+    visibility: visible;        
+}
+
 
 .experience-section {
     margin: 0 auto;
