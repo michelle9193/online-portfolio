@@ -94,7 +94,7 @@ footer {
 
 .nav-link:hover {
   position: relative;
-  border-bottom: 2px dotted #ffff00;
+  border-bottom: 2px dotted #ffff00c0;
   height: 40px; }
 
 .hero {
@@ -108,7 +108,7 @@ footer {
     margin-top: 90px;
     margin-left: 160px; }
   .hero span {
-    color: #ffff00; }
+    color: #ffff00c0; }
   .hero p {
     margin-top: 30px;
     font-family: 'Abel';
@@ -140,21 +140,44 @@ footer {
       padding: 10px;
       border-radius: 5px;
       width: 140px; }
+      .about-me-block div button.pulse {
+        animation-name: pulse_animation;
+        animation-duration: 5000ms;
+        transform-origin: 70% 70%;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear; }
       .about-me-block div button a {
         text-decoration: none;
         color: #000;
         font-weight: bold;
         margin: auto; }
         .about-me-block div button a:hover {
-          color: #ffff00; }
+          color: #ffff00c0; }
 
+@keyframes pulse_animation {
+  0% {
+    transform: scale(1); }
+  30% {
+    transform: scale(1); }
+  40% {
+    transform: scale(1.08); }
+  50% {
+    transform: scale(1); }
+  60% {
+    transform: scale(1); }
+  70% {
+    transform: scale(1.05); }
+  80% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1); } }
 .my-skills-section {
   background-image: url(../images/computer-device-electronics-872958.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 650px;
   background-position: center;
-  border-bottom: 1px solid #ffff00; }
+  border-bottom: 1px solid #ffff00c0; }
   .my-skills-section div {
     margin: auto;
     width: 330px; }
@@ -168,6 +191,12 @@ footer {
     padding: 30px 20px;
     border-radius: 50%;
     background-color: #80808080; }
+    .my-skills-section i:hover {
+      background-color: #ffff00c0; }
+    .my-skills-section i:hover p {
+      display: block;
+      transition-duration: 5s;
+      transition-delay: 2s; }
     .my-skills-section i p {
       font-size: 14px;
       margin-top: 50px;
@@ -175,11 +204,6 @@ footer {
       font-family: 'Raleway';
       font-weight: bold;
       display: none; }
-
-i:hover p {
-  display: block;
-  transition-duration: 5s;
-  transition-delay: 2s; }
 
 .experience-section {
   margin: 0 auto;
@@ -234,7 +258,7 @@ i:hover p {
             color: #000; }
       .portfolio-section section.projects section {
         padding: 0;
-        width: 500px; }
+        width: 430px; }
 
 .container:hover .overlay {
   opacity: 0.9; }
@@ -256,14 +280,13 @@ i:hover p {
     width: 60px;
     padding: 16px; }
     .contact-me i:hover {
-      background-color: #ffff00;
-      height: 80px;
+      background-color: #ffff00c0;
       color: #3d475f; }
   .contact-me .menu-items {
     font-size: 17px;
     word-spacing: 30px; }
     .contact-me .menu-items a {
-      color: #ffff00;
+      color: #ffff00c0;
       text-decoration: none;
       font-weight: bold;
       letter-spacing: 3px; }

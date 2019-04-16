@@ -71,6 +71,13 @@
         padding: 10px;
         border-radius: 5px;
         width: 140px;
+        &.pulse {
+            animation-name: pulse_animation;
+            animation-duration: 5000ms;
+            transform-origin:70% 70%;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
         a {
             text-decoration: none;
             color: $color-text-dark;
@@ -82,6 +89,17 @@
             }
         }
     }
+}
+
+@keyframes pulse_animation {
+    0% { transform: scale(1); }
+    30% { transform: scale(1); }
+    40% { transform: scale(1.08); }
+    50% { transform: scale(1); }
+    60% { transform: scale(1); }
+    70% { transform: scale(1.05); }
+    80% { transform: scale(1); }
+    100% { transform: scale(1); }
 }
 
 .my-skills-section {
@@ -107,6 +125,15 @@
         padding: 30px 20px;
         border-radius: 50%;
         background-color: #80808080;
+        &:hover {
+            background-color: #ffff00c0;
+            
+        }
+        &:hover  p {
+            display: block;
+            transition-duration: 5s;
+            transition-delay: 2s;
+        }
         
         p {
             font-size: 14px;
@@ -120,11 +147,7 @@
 }
 
 
-i:hover  p {
-    display: block;
-    transition-duration: 5s;
-  transition-delay: 2s;
-}
+
 
 
 .experience-section {
@@ -141,9 +164,7 @@ i:hover  p {
             height: 55px;
         }
     
-
-
-    div:nth-of-type(even) {
+        div:nth-of-type(even) {
         margin-left: 50px;
     }
 }
@@ -194,11 +215,13 @@ i:hover  p {
 
             section {
                 padding: 0;
-                width: 500px;
+                width: 430px;
             }
         }
     }
 }
+
+
 
   .container:hover .overlay {
     opacity: 0.9;
@@ -222,7 +245,6 @@ i:hover  p {
         padding: 16px;
         &:hover {
             background-color: $color-prim;
-            height: 80px;
             color:  $cloud-burst;
         }
     }
