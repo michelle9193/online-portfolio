@@ -189,16 +189,21 @@
                 opacity: 0;
                 transition: .5s ease;
                 background-color: $color-text-dark;
+                p {
+                    color: $color-text-light;
+                    text-align: center;
+                    margin-top: 40px;
+                }
 
                 button { 
                     background-color: $color-text-light;
-                    padding: 5px;
+                    padding: 0;
                     width: 100px;
                     border: none;
                     border-radius: 2px;
                     font-size: 20px;
                     position: absolute;
-                    top: 70%;
+                    top: 60%;
                     left: 50%;
                     -webkit-transform: translate(-50%, -50%);
                     -ms-transform: translate(-50%, -50%);
