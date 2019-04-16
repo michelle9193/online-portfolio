@@ -42,6 +42,7 @@ h4 {
   color: #98adc2;
   font-family: 'Raleway';
   margin-top: 10px;
+  margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 5px;
   padding-top: 15px; }
@@ -116,7 +117,7 @@ img {
           color: yellow; }
 
 .my-skills-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/confetti-1637197_1280.jpg);
+  background-image: url(../images/abstract-architecture-building-exterior-593158.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -139,8 +140,13 @@ img {
 
 .experience-section {
   margin: 0 auto;
-  width: 1000px;
+  width: 800px;
   padding: 70px 0; }
+  .experience-section p:nth-of-type(odd) {
+    font-weight: bold;
+    line-height: 30px; }
+  .experience-section div:nth-of-type(even) {
+    margin-left: 50px; }
 
 .portfolio-section {
   background-color: #333B50;

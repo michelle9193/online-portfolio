@@ -83,7 +83,7 @@
 }
 
 .my-skills-section {
-    background-image: linear-gradient($color-shadow, $color-shadow ), url(../images/confetti-1637197_1280.jpg);
+    background-image: url(../images/abstract-architecture-building-exterior-593158.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -112,8 +112,17 @@
 
 .experience-section {
     margin: 0 auto;
-    width: 1000px;
+    width: 800px;
     padding: 70px 0;
+    
+    p:nth-of-type(odd) {
+        font-weight: bold;
+        line-height: 30px;
+    }
+
+    div:nth-of-type(even) {
+        margin-left: 50px;
+    }
 }
 
 .portfolio-section {
