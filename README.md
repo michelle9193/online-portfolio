@@ -44,6 +44,18 @@ Frameworks:
 
 ### Changelog 
 
+
+```
+April 17, 2019
+
+
+- made responsive for all devices
+- added mobile responsiveness
+- removed aos from portfolio
+
+```
+
+
 ```
 April 16, 2019
 

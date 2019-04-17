@@ -97,7 +97,7 @@ footer {
   height: 2.5rem; }
 
 .hero {
-  height: 50.375rem;
+  height: 700px;
   background-image: linear-gradient(rgba(144, 154, 181, 0.5), rgba(144, 154, 181, 0.5)), url(../images/bg-image.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -122,7 +122,7 @@ footer {
   width: 43.75rem;
   height: 12.5rem;
   position: absolute;
-  top: 114%;
+  top: 97.1%;
   left: 11.5%; }
   .about-me-block p {
     color: #f0ffff;
@@ -294,26 +294,35 @@ footer {
       font-weight: bold;
       letter-spacing: 0.1875rem; }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1339px) {
   h1 {
-    font-size: 65px; }
+    font-size: 58px; }
 
   h2 {
     padding-top: 3.75rem;
-    font-size: 3.125rem;
+    font-size: 2.8125rem;
     letter-spacing: 0.25rem;
     height: 9.375rem; }
+
+  .nav-item {
+    text-transform: uppercase;
+    margin-right: 2.5rem;
+    letter-spacing: 0.0625rem;
+    font-weight: 500; }
 
   .hero {
     height: 50rem;
     background-image: linear-gradient(rgba(144, 154, 181, 0.5), rgba(144, 154, 181, 0.5)), url(../images/bg-image2.png);
     background-position: left; }
+    .hero section {
+      margin-top: 5.625rem;
+      margin-left: 60px; }
 
   .about-me-block {
     border: none;
     padding: 0.9375rem;
-    width: 37.8rem;
-    top: 129.5%;
+    width: 478px;
+    top: 129.8%;
     left: 0; }
     .about-me-block p {
       font-size: 1.25rem; }
@@ -331,14 +340,195 @@ footer {
     .portfolio-section section {
       position: relative;
       grid-template-columns: repeat(1, 62.5rem);
-      height: 12.5rem; }
+      height: 12.5rem;
+      margin-bottom: 10px; }
       .portfolio-section section.projects {
         height: 25rem;
-        width: 81.25rem;
+        width: 62.5rem;
         margin: auto; }
         .portfolio-section section.projects section img {
           height: 500px;
           width: 500px; } }
+@media only screen and (min-device-width: 1001px) and (max-device-width: 1024px) {
+  h1 {
+    font-size: 58px; }
+
+  h2 {
+    padding-top: 3.75rem;
+    font-size: 2.8125rem;
+    letter-spacing: 0.25rem;
+    height: 9.375rem; }
+
+  .nav-item {
+    text-transform: uppercase;
+    margin-right: 2.5rem;
+    letter-spacing: 0.0625rem;
+    font-weight: 500; }
+
+  .hero {
+    height: 50rem;
+    background-image: linear-gradient(rgba(144, 154, 181, 0.5), rgba(144, 154, 181, 0.5)), url(../images/bg-image2.png);
+    background-position: left; }
+    .hero section {
+      margin-top: 5.625rem;
+      margin-left: 60px; }
+
+  .about-me-block {
+    border: none;
+    padding: 0.9375rem;
+    width: 477px;
+    top: 129.6%;
+    left: 0; }
+    .about-me-block p {
+      font-size: 1.25rem; }
+
+  .my-skills-section {
+    height: 40rem; }
+    .my-skills-section div {
+      margin: auto;
+      width: 20.625rem; }
+      .my-skills-section div.my-skills {
+        grid-gap: 5rem; }
+
+  .portfolio-section {
+    height: 50rem; }
+    .portfolio-section section {
+      position: relative;
+      grid-template-columns: repeat(1, 62.5rem);
+      height: 12.5rem;
+      margin-bottom: 10px; }
+      .portfolio-section section.projects {
+        height: 25rem;
+        width: 62.5rem;
+        margin: auto; }
+        .portfolio-section section.projects section img {
+          height: 500px;
+          width: 500px; } }
+@media only screen and (min-device-width: 481px) and (max-device-width: 1000px) {
+  h1 {
+    width: 15.625rem;
+    line-height: 3.75rem;
+    height: 12.5rem;
+    font-size: 2.8125rem;
+    letter-spacing: 0.3125rem; }
+
+  h2 {
+    padding-top: 2.5rem;
+    font-size: 2.8125rem;
+    letter-spacing: 0.3125rem;
+    height: 7.5rem; }
+    h2.skills {
+      height: 9.0625rem;
+      padding-top: 2.5rem; }
+
+  h3 {
+    text-align: center;
+    letter-spacing: 0.625rem;
+    font-size: 1.875rem; }
+
+  h4 {
+    text-align: center;
+    font-size: 1.125rem;
+    margin: 1.25rem 0;
+    letter-spacing: 0.1875rem; }
+
+  .hero {
+    height: 43.75rem;
+    background-position: right; }
+    .hero section {
+      margin-left: 5rem; }
+    .hero p {
+      margin-top: 0;
+      font-size: 1.25rem;
+      width: 18.75rem;
+      letter-spacing: 0.1875rem;
+      line-height: 1.875rem; }
+
+  .about-me-block {
+    padding: 0.9375rem 1.125rem;
+    width: auto;
+    height: 170px;
+    position: absolute;
+    top: 114%;
+    left: 0; }
+    .about-me-block p {
+      font-size: 1.125rem; }
+    .about-me-block div {
+      padding: 0; }
+      .about-me-block div button {
+        padding: 5px;
+        width: 6.25rem; }
+        .about-me-block div button a {
+          font-size: 0.875rem; }
+
+  .my-skills-section {
+    height: 35.625rem;
+    background-position: right; }
+    .my-skills-section div {
+      margin: 0 auto;
+      width: auto; }
+      .my-skills-section div.my-skills {
+        grid-gap: 30px;
+        grid-template-columns: repeat(3, auto);
+        width: 28.75rem; }
+
+  .experience-section {
+    width: auto;
+    padding: 20px 20px; }
+    .experience-section .experience-grid {
+      margin: 0 auto;
+      width: auto;
+      display: block; }
+      .experience-section .experience-grid p {
+        text-align: center; }
+      .experience-section .experience-grid p:nth-of-type(odd) {
+        font-weight: bold;
+        line-height: 1.5625rem; }
+      .experience-section .experience-grid p:nth-of-type(even) {
+        height: 3.125rem; }
+      .experience-section .experience-grid div:nth-of-type(even) {
+        margin: 0; }
+
+  .portfolio-section {
+    height: 50rem; }
+    .portfolio-section section {
+      height: 12.5rem; }
+      .portfolio-section section.projects {
+        width: 450px;
+        display: block;
+        grid-template-columns: 1fr; }
+        .portfolio-section section.projects section {
+          width: 450px;
+          margin: 0;
+          margin-top: 20px; }
+          .portfolio-section section.projects section img {
+            height: 200px;
+            width: 700px;
+            margin-right: 0; }
+          .portfolio-section section.projects section div {
+            width: 450px;
+            height: 200px; }
+
+  .contact-me {
+    height: 9.375rem;
+    text-align: center; }
+    .contact-me i {
+      font-size: 1.25rem;
+      margin: 1.25rem;
+      height: 2.5rem;
+      width: 2.5rem;
+      padding: 0.625rem; }
+    .contact-me .menu-items {
+      font-size: 0.75rem;
+      word-spacing: 0.3125rem;
+      margin-top: 0.75rem; }
+
+  footer {
+    height: 3.125rem;
+    padding-top: 20px; }
+    footer p {
+      letter-spacing: 0.0313rem;
+      font-size: 0.5rem; } }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   h1 {
     width: 14.0625rem;
@@ -443,6 +633,135 @@ footer {
           .portfolio-section section.projects section div {
             width: 300px;
             height: 200px; }
+            .portfolio-section section.projects section div p {
+              color: #f0ffff;
+              text-align: center;
+              margin-top: 30px; }
+
+  .contact-me {
+    height: 9.375rem;
+    text-align: center; }
+    .contact-me i {
+      font-size: 1.25rem;
+      margin: 1.25rem;
+      height: 2.5rem;
+      width: 2.5rem;
+      padding: 0.625rem; }
+    .contact-me .menu-items {
+      font-size: 0.625rem;
+      word-spacing: 0.3125rem;
+      margin-top: 0.75rem; }
+
+  footer {
+    height: 3.125rem;
+    padding-top: 20px; }
+    footer p {
+      letter-spacing: 0.0313rem;
+      font-size: 0.5rem; } }
+@media only screen and (min-device-width: 200px) and (max-device-width: 319px) {
+  h1 {
+    width: 14.0625rem;
+    letter-spacing: 0.4375rem;
+    line-height: 3.125rem;
+    font-size: 38px; }
+
+  h2 {
+    padding-top: 2.5rem;
+    font-size: 2.8125rem;
+    letter-spacing: 0.3125rem;
+    height: 6.25rem; }
+    h2.skills {
+      height: 9.0625rem;
+      padding-top: 2.5rem; }
+
+  h3 {
+    text-align: left;
+    letter-spacing: 0.625rem;
+    font-size: 1.5625rem; }
+
+  h4 {
+    font-size: 1.125rem;
+    margin: 1.25rem 0;
+    letter-spacing: 0.1875rem; }
+
+  .hero {
+    height: 500px;
+    background-position: left; }
+    .hero section {
+      margin-top: 4.375rem;
+      margin-left: 30px; }
+    .hero p {
+      margin-top: 0.625rem;
+      line-height: 1.875rem;
+      font-size: 1.125rem;
+      letter-spacing: 0.1875rem; }
+
+  .about-me-block {
+    background-color: #3d475f;
+    padding: 0.9375rem 1.125rem;
+    width: 300px;
+    height: 180px;
+    position: absolute;
+    top: 71%;
+    left: 0; }
+    .about-me-block p {
+      color: #f0ffff;
+      font-family: 'Abel';
+      font-size: 15px; }
+    .about-me-block div button {
+      padding: 0.3125rem;
+      width: 6.25rem; }
+      .about-me-block div button a {
+        font-size: 0.875rem; }
+
+  .my-skills-section {
+    height: 670px; }
+    .my-skills-section div {
+      margin: 0 auto;
+      width: auto; }
+      .my-skills-section div.my-skills {
+        grid-gap: 30px;
+        grid-template-columns: repeat(2, 120px); }
+    .my-skills-section i {
+      font-size: 1.875rem;
+      width: 5rem;
+      height: 5rem;
+      padding: 1.25rem 0.625rem;
+      margin-bottom: 1.25rem; }
+      .my-skills-section i p {
+        font-size: 12px;
+        margin-top: 35px; }
+
+  .experience-section {
+    width: auto;
+    padding: 20px 20px; }
+    .experience-section .experience-grid {
+      margin: 0 auto;
+      width: auto;
+      display: block; }
+      .experience-section .experience-grid div:nth-of-type(even) {
+        margin: 0; }
+
+  .portfolio-section {
+    height: 50rem; }
+    .portfolio-section section {
+      height: 12.5rem; }
+      .portfolio-section section.projects {
+        height: 25rem;
+        width: 300px;
+        display: block;
+        grid-template-columns: repeat(1, 26.875rem); }
+        .portfolio-section section.projects section {
+          width: 300px;
+          margin: 0;
+          margin-top: 20px; }
+          .portfolio-section section.projects section img {
+            height: 190px;
+            width: 300px;
+            margin-right: 0; }
+          .portfolio-section section.projects section div {
+            width: 300px;
+            height: 190px; }
             .portfolio-section section.projects section div p {
               color: #f0ffff;
               text-align: center;
