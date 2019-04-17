@@ -2,10 +2,10 @@
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 0.625rem;
-    right: 1.875rem;
+    bottom: 2%;
+    right: 1%;
     z-index: 99;
-    font-size: 1.125rem;
+    font-size: 120%;
     border: none;
     outline: none;
     cursor: pointer;
@@ -13,7 +13,6 @@
     width: 3.125rem;
     height: 3.125rem;
     border-radius: 50%;
-    font-size: 1.25rem;
     color: white;
     font-weight: bold;
 }
