@@ -48,7 +48,7 @@ Frameworks:
 ```
 April 17, 2019
 
-
+- updated readme
 - made responsive for all devices
 - added mobile responsiveness
 - removed aos from portfolio
