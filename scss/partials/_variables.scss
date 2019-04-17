@@ -1,7 +1,7 @@
 $azure : #f0ffff;
 $black : #000;
 $baby-blue : #909AB5;
-$light-blue: #98adc2;
+$light-blue: rgb(152, 173, 194);
 $yellow : #ffff00c0;
 $cloud-burst: rgb(61, 71, 95);
 
@@ -16,3 +16,5 @@ $color-text-blue : $baby-blue;
 
 $color-shadow : rgba($black, .6);
 $color-shadow-light : rgba($baby-blue, .7);
+
+$color-body : $azure

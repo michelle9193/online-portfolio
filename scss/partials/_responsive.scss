@@ -66,3 +66,135 @@
 }
 
 
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+    h1 {
+        width: 14.0625rem;
+        letter-spacing: 0.4375rem;
+        line-height: 3.125rem;
+        font-size: 38px;
+    }
+
+    h2 {
+        padding-top: 3.75rem;
+        font-size: 2.8125rem;
+        letter-spacing: 0.3125rem;
+        height: 6.25rem;
+        &.skills {
+            height: 9.0625rem;  
+            padding-top: 2.5rem;     
+        }
+    }
+
+    h3 {
+        text-align: center;
+        letter-spacing: 0.625rem;  
+    } 
+    
+    h4 {
+        font-size: 1.125rem;
+        margin: 1.25rem 0;
+        letter-spacing: 0.1875rem;
+    }
+
+    .hero {
+        height: 37.5rem;
+        background-position: left;
+    
+        section {
+            margin-top: 4.375rem;
+            margin-left: 3.75rem
+        }    
+        p {
+            margin-top: 0.625rem;
+            line-height: 1.875rem;
+            font-size: 1.125rem;
+            letter-spacing: 0.1875rem;
+        }
+    }
+
+    .about-me-block {
+        background-color: $cloud-burst;
+        padding: 0.9375rem 1.125rem;
+        width: auto;
+        height: 180px;
+        position: absolute;
+        top: 93%;
+        left: 0;
+        p {
+            color: $color-body;
+            font-family: 'Abel';
+            font-size: 15px;
+        }
+        div {
+            button {
+                padding: 0.3125rem;
+                width: 6.25rem;
+                a {
+                    font-size: 0.875rem;
+                }
+            }
+        }
+    }
+
+    .my-skills-section {
+        height: 670px;     
+        div {
+            margin: 0 auto;
+            width: auto;
+            &.my-skills{
+                grid-gap: 30px;
+                grid-template-columns: repeat(2, auto);
+                }
+            }
+            i {
+                font-size: 1.875rem;
+                width: 5rem;
+                height: 5rem;
+                padding: 1.25rem 0.625rem;
+                margin-bottom: 1.25rem;
+            p {
+                font-size: 12px;
+                margin-top: 35px;
+            }
+        }
+    }
+
+    .experience-section {
+        width: auto;
+        padding: 30px 30px;  
+
+        .experience-grid {
+            margin: 0 auto;
+            width: auto;
+            display: block; 
+
+            div:nth-of-type(even) {
+            margin: 0;
+            }
+        }
+    }
+
+    .portfolio-section {
+        height: 50rem;
+        section {
+            position: relative;
+            grid-template-columns: repeat(1, 300px);
+            height: 12.5rem;
+            &.projects {
+                height: 25rem;
+                width: 81.25rem;
+                margin: auto;
+                section {
+                   img {
+                        min-height: 300px;
+                        width: 500px;
+                    }
+                }
+            }
+        }
+    }
+}
+  

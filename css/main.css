@@ -3,7 +3,7 @@
 @import "https://fonts.googleapis.com/css?family=Raleway|Righteous|Oswald|Abel|Muli:900|Titillium+Web:900|Dancing+Script";
 @import "https://use.fontawesome.com/releases/v5.8.1/css/all.css";
 @import "https://unpkg.com/aos@2.3.1/dist/aos.css";
-html {
+* {
   font-family: 'Raleway';
   scroll-behavior: smooth; }
 
@@ -108,7 +108,8 @@ footer {
     margin-top: 5.625rem;
     margin-left: 10rem; }
   .hero span {
-    color: #ffff00c0; }
+    color: #ffff00c0;
+    font-family: 'Titillium Web'; }
   .hero p {
     margin-top: 1.875rem;
     font-family: 'Abel';
@@ -118,7 +119,6 @@ footer {
 
 .about-me-block {
   background-color: #3d475f;
-  border: 0.0625rem dotted #f0ffff;
   padding: 1.125rem;
   width: 43.75rem;
   height: 12.5rem;
@@ -340,12 +340,108 @@ footer {
         .portfolio-section section.projects section img {
           height: 500px;
           width: 500px; } }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  h1 {
+    width: 14.0625rem;
+    letter-spacing: 0.4375rem;
+    line-height: 3.125rem;
+    font-size: 38px; }
+
+  h2 {
+    padding-top: 3.75rem;
+    font-size: 2.8125rem;
+    letter-spacing: 0.3125rem;
+    height: 6.25rem; }
+    h2.skills {
+      height: 9.0625rem;
+      padding-top: 2.5rem; }
+
+  h3 {
+    text-align: center;
+    letter-spacing: 0.625rem; }
+
+  h4 {
+    font-size: 1.125rem;
+    margin: 1.25rem 0;
+    letter-spacing: 0.1875rem; }
+
+  .hero {
+    height: 37.5rem;
+    background-position: left; }
+    .hero section {
+      margin-top: 4.375rem;
+      margin-left: 3.75rem; }
+    .hero p {
+      margin-top: 0.625rem;
+      line-height: 1.875rem;
+      font-size: 1.125rem;
+      letter-spacing: 0.1875rem; }
+
+  .about-me-block {
+    background-color: #3d475f;
+    padding: 0.9375rem 1.125rem;
+    width: auto;
+    height: 180px;
+    position: absolute;
+    top: 93%;
+    left: 0; }
+    .about-me-block p {
+      color: #f0ffff;
+      font-family: 'Abel';
+      font-size: 15px; }
+    .about-me-block div button {
+      padding: 0.3125rem;
+      width: 6.25rem; }
+      .about-me-block div button a {
+        font-size: 0.875rem; }
+
+  .my-skills-section {
+    height: 670px; }
+    .my-skills-section div {
+      margin: 0 auto;
+      width: auto; }
+      .my-skills-section div.my-skills {
+        grid-gap: 30px;
+        grid-template-columns: repeat(2, auto); }
+    .my-skills-section i {
+      font-size: 1.875rem;
+      width: 5rem;
+      height: 5rem;
+      padding: 1.25rem 0.625rem;
+      margin-bottom: 1.25rem; }
+      .my-skills-section i p {
+        font-size: 12px;
+        margin-top: 35px; }
+
+  .experience-section {
+    width: auto;
+    padding: 30px 30px; }
+    .experience-section .experience-grid {
+      margin: 0 auto;
+      width: auto;
+      display: block; }
+      .experience-section .experience-grid div:nth-of-type(even) {
+        margin: 0; }
+
+  .portfolio-section {
+    height: 50rem; }
+    .portfolio-section section {
+      position: relative;
+      grid-template-columns: repeat(1, 300px);
+      height: 12.5rem; }
+      .portfolio-section section.projects {
+        height: 25rem;
+        width: 81.25rem;
+        margin: auto; }
+        .portfolio-section section.projects section img {
+          min-height: 300px;
+          width: 500px; } }
 .my-skills {
   display: grid;
   grid-gap: 100px;
   grid-template-columns: repeat(4, 6.25rem); }
 
-.experience-section {
+.experience-grid {
   display: grid;
   grid-gap: 1.25rem;
   grid-template-columns: 1fr 1fr;

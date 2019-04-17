@@ -35,12 +35,13 @@
 
     span {
         color: $color-prim;
+        font-family: 'Titillium Web';
     }
 
     p {
         margin-top: 1.875rem;
         font-family: 'Abel';
-        color: $color-text-light;
+        color: $color-body;
         font-size: 1.5625rem;
         letter-spacing: 0.1875rem;
     }
@@ -48,7 +49,6 @@
 
 .about-me-block {
     background-color: $cloud-burst;
-    border: 0.0625rem dotted $color-text-light;
     padding: 1.125rem;
     width: 43.75rem;
     height: 12.5rem;
@@ -56,7 +56,7 @@
     top: 114%;
     left: 11.5%;
     p {
-        color: $color-text-light;
+        color: $color-body;
         font-family: 'Abel';
         font-size: 1.375rem;
     }
@@ -187,13 +187,13 @@
                 transition: .5s ease;
                 background-color: $color-text-dark;
                 p {
-                    color: $color-text-light;
+                    color: $color-body;
                     text-align: center;
                     margin-top: 2.5rem;
                 }
 
                 button { 
-                    background-color: $color-text-light;
+                    background-color: $color-body;
                     padding: 0;
                     width: 6.25rem;
                     border: none;
@@ -239,7 +239,7 @@
     i {
         font-size: 1.875rem;
         margin: 1.875rem;
-        color: $color-text-light;
+        color: $color-body;
         border-radius: 50%;
         background-color: $cloud-burst;
         height: 3.75rem;
@@ -263,6 +263,7 @@
         }
     }
 }
+
 
 
 
