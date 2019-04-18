@@ -118,19 +118,25 @@ footer {
 
 .about-me-block {
   background-color: #3d475f;
-  padding: 1.125rem;
+  padding: 16px;
   width: 43.75rem;
-  height: 12.5rem;
+  height: 220px;
   position: absolute;
-  top: 97.1%;
+  top: 93.9%;
   left: 11.5%; }
   .about-me-block p {
     color: #f0ffff;
     font-family: 'Abel';
-    font-size: 1.375rem; }
+    font-size: 1.375rem;
+    margin-bottom: 8px; }
+  .about-me-block section {
+    color: #ffff00c0;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 30px; }
   .about-me-block div {
     text-align: center;
-    padding-top: 1.25rem; }
+    padding-top: 0.9375rem; }
     .about-me-block div button {
       background-color: #909AB5;
       opacity: 0.8;
@@ -322,10 +328,15 @@ footer {
     border: none;
     padding: 0.9375rem;
     width: 478px;
-    top: 129.8%;
+    top: 126%;
     left: 0; }
     .about-me-block p {
       font-size: 1.25rem; }
+    .about-me-block section {
+      font-size: 0.9375rem;
+      letter-spacing: 0;
+      line-height: 22px;
+      margin-bottom: 0; }
 
   .my-skills-section {
     height: 40rem; }
@@ -376,11 +387,18 @@ footer {
   .about-me-block {
     border: none;
     padding: 0.9375rem;
-    width: 477px;
-    top: 129.6%;
+    width: 466px;
+    top: 125.9%;
     left: 0; }
     .about-me-block p {
       font-size: 1.25rem; }
+    .about-me-block section {
+      font-size: 0.9375rem;
+      letter-spacing: 0;
+      line-height: 22px;
+      margin-bottom: 0; }
+    .about-me-block div button {
+      padding: 7px; }
 
   .my-skills-section {
     height: 40rem; }
@@ -434,7 +452,7 @@ footer {
 
   .hero {
     height: 43.75rem;
-    background-position: right; }
+    background-image: linear-gradient(rgba(144, 154, 181, 0.5), rgba(144, 154, 181, 0.5)), url(../images/profile-image.png); }
     .hero section {
       margin-left: 5rem; }
     .hero p {
@@ -445,14 +463,19 @@ footer {
       line-height: 1.875rem; }
 
   .about-me-block {
-    padding: 0.9375rem 1.125rem;
+    padding: 0.9375rem;
     width: auto;
-    height: 170px;
+    height: 200px;
     position: absolute;
-    top: 114%;
+    top: 105%;
     left: 0; }
     .about-me-block p {
       font-size: 1.125rem; }
+    .about-me-block section {
+      font-size: 0.9375rem;
+      letter-spacing: 0;
+      line-height: 22px;
+      margin-bottom: 15px; }
     .about-me-block div {
       padding: 0; }
       .about-me-block div button {
@@ -579,6 +602,10 @@ footer {
       color: #f0ffff;
       font-family: 'Abel';
       font-size: 15px; }
+    .about-me-block section {
+      font-size: 12px;
+      letter-spacing: 0;
+      line-height: 19px; }
     .about-me-block div button {
       padding: 0.3125rem;
       width: 6.25rem; }
@@ -698,16 +725,21 @@ footer {
 
   .about-me-block {
     background-color: #3d475f;
-    padding: 0.9375rem 1.125rem;
+    padding: 0.8125rem 0.9375rem;
     width: 300px;
-    height: 180px;
+    height: 193px;
     position: absolute;
     top: 71%;
     left: 0; }
     .about-me-block p {
       color: #f0ffff;
       font-family: 'Abel';
-      font-size: 15px; }
+      font-size: 15px;
+      margin-bottom: 0; }
+    .about-me-block section {
+      font-size: 12px;
+      letter-spacing: 0;
+      line-height: 19px; }
     .about-me-block div button {
       padding: 0.3125rem;
       width: 6.25rem; }

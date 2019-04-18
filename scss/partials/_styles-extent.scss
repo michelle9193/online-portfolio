@@ -49,20 +49,29 @@
 
 .about-me-block {
     background-color: $cloud-burst;
-    padding: 1.125rem;
+    padding: 16px;
     width: 43.75rem;
-    height: 12.5rem;
+    height: 220px;
     position: absolute;
-    top: 97.1%;
+    top: 93.9%;
     left: 11.5%;
     p {
         color: $color-body;
         font-family: 'Abel';
         font-size: 1.375rem;
-    }
+        margin-bottom: 8px;
+    } 
+        section {
+            color: $color-prim;
+            text-align: center;
+            letter-spacing: 1px;
+            line-height: 30px;
+        }
+
+    
     div {
         text-align: center;
-        padding-top: 1.25rem;
+        padding-top: 0.9375rem;
       button {
         background-color: $color-text-blue;
         opacity: 0.8;

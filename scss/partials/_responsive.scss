@@ -37,10 +37,16 @@
         border: none;
         padding: 0.9375rem;
         width: 478px;
-        top: 129.8%;
+        top: 126%;
         left: 0;
         p {
             font-size: 1.25rem;
+        }
+        section {
+            font-size: 0.9375rem;
+            letter-spacing: 0;
+            line-height: 22px;
+            margin-bottom: 0;
         }
     }
 
@@ -116,11 +122,23 @@
     .about-me-block {
         border: none;
         padding: 0.9375rem;
-        width: 477px;
-        top: 129.6%;
+        width: 466px;
+        top: 125.9%;
         left: 0;
         p {
             font-size: 1.25rem;
+        }
+        section {
+            font-size: 0.9375rem;
+            letter-spacing: 0;
+            line-height: 22px;
+            margin-bottom: 0;
+        }
+
+        div {
+            button {
+                padding: 7px;
+            }
         }
     }
 
@@ -197,7 +215,7 @@
 
         .hero {
             height: 43.75rem;
-            background-position: right;
+            background-image: linear-gradient($color-shadow-light, $color-shadow-light), url(../images/profile-image.png);
                     
             section {
                 margin-left: 5rem
@@ -212,14 +230,20 @@
         }
 
         .about-me-block {
-            padding: 0.9375rem 1.125rem;
+            padding: 0.9375rem;
             width: auto;
-            height: 170px;
+            height: 200px;
             position: absolute;
-            top: 114%;
+            top: 105%;
             left: 0;
             p {
                 font-size: 1.125rem;
+            }
+            section {
+                font-size: 0.9375rem;
+                letter-spacing: 0;
+                line-height: 22px;
+                margin-bottom: 15px;
             }
             div {
                 padding: 0;
@@ -400,6 +424,11 @@
             font-family: 'Abel';
             font-size: 15px;
         }
+        section {
+            font-size: 12px;
+            letter-spacing: 0;
+            line-height: 19px;
+        }
         div {
             button {
                 padding: 0.3125rem;
@@ -563,9 +592,9 @@
 
     .about-me-block {
         background-color: $cloud-burst;
-        padding: 0.9375rem 1.125rem;
+        padding: 0.8125rem 0.9375rem;
         width: 300px;
-        height: 180px;
+        height: 193px;
         position: absolute;
         top: 71%;
         left: 0;
@@ -573,6 +602,12 @@
             color: $color-body;
             font-family: 'Abel';
             font-size: 15px;
+            margin-bottom: 0;
+        }
+        section {
+            font-size: 12px;
+            letter-spacing: 0;
+            line-height: 19px;
         }
         div {
             button {
