@@ -183,8 +183,9 @@
         width: 50%;
         &.projects {
             height: 12.5rem;
-            width: 81.25rem;
-            margin: auto;
+            width: 1250px;
+            margin: 0 auto;
+
             div {
                 width: 26.875rem;
                 position: absolute;
@@ -195,6 +196,7 @@
                 opacity: 0;
                 transition: .5s ease;
                 background-color: $color-text-dark;
+                
                 p {
                     color: $color-body;
                     text-align: center;
@@ -226,13 +228,16 @@
 
             section {
                 padding: 0;
-                width: 26.875rem;
+                width: 500px;
+                margin: 0;
             }
         }
     }
 }
 
-
+.blog {
+    width: 300px;
+}
 
   .container:hover .overlay {
     opacity: 0.9;
@@ -278,3 +283,23 @@
 
 
 
+
+
+.fa-1x {
+font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+cursor: pointer;
+}
+.dark-blue-text {
+color: #0A38F5;
+}
+.dark-pink-text {
+color: #AC003A;
+}
+.dark-amber-text {
+color: #ff6f00;
+}
+.dark-teal-text {
+color: #004d40;
+}
