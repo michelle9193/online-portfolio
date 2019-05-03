@@ -46,6 +46,28 @@ Frameworks:
 
 
 ```
+May 3, 2019
+
+- updated readme
+- fixed nav burger
+
+```
+
+```
+May 1, 2019
+
+- updated cv
+
+```
+
+```
+April 18, 2019
+
+- updated cv document
+
+```
+
+```
 April 17, 2019
 
 - updated readme
