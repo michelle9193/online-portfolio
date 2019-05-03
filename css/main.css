@@ -587,7 +587,7 @@ footer {
 
   h2 {
     padding-top: 2.5rem;
-    font-size: 2.8125rem;
+    font-size: 2.1875rem;
     letter-spacing: 0.3125rem;
     height: 6.25rem; }
     h2.skills {
@@ -604,8 +604,13 @@ footer {
     margin: 1.25rem 0;
     letter-spacing: 0.1875rem; }
 
+  .navbar-brand {
+    width: 20%; }
+    .navbar-brand .logo {
+      width: 70%; }
+
   .hero {
-    height: 37.5rem;
+    height: 565px;
     background-position: left; }
     .hero section {
       margin-top: 4.375rem;
@@ -620,7 +625,7 @@ footer {
     background-color: #3d475f;
     padding: 0.9375rem 1.125rem;
     width: auto;
-    height: 180px;
+    height: 200px;
     position: absolute;
     top: 93%;
     left: 0; }
@@ -720,7 +725,7 @@ footer {
 
   h2 {
     padding-top: 2.5rem;
-    font-size: 2.8125rem;
+    font-size: 2.1875rem;
     letter-spacing: 0.3125rem;
     height: 6.25rem; }
     h2.skills {
@@ -738,7 +743,7 @@ footer {
     letter-spacing: 0.1875rem; }
 
   .navbar-brand .logo {
-    width: 40%; }
+    width: 50%; }
 
   .hero {
     height: 500px;

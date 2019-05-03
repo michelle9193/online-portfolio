@@ -178,9 +178,11 @@
 }
 
 
+
 @media only screen 
     and (min-device-width: 481px)
     and (max-device-width: 1000px) {
+    
         h1 {
             width: 15.625rem;
             line-height: 3.75rem;
@@ -374,7 +376,7 @@
 
     h2 {
         padding-top: 2.5rem;
-        font-size: 2.8125rem;
+        font-size: 2.1875rem;
         letter-spacing: 0.3125rem;
         height: 6.25rem;
         &.skills {
@@ -395,8 +397,16 @@
         letter-spacing: 0.1875rem;
     }
 
+    .navbar-brand {
+    width: 20%; 
+
+        .logo {
+            width: 70%;
+        }
+    }
+
     .hero {
-        height: 37.5rem;
+        height: 565px;
         background-position: left;
     
         section {
@@ -415,7 +425,7 @@
         background-color: $cloud-burst;
         padding: 0.9375rem 1.125rem;
         width: auto;
-        height: 180px;
+        height: 200px;
         position: absolute;
         top: 93%;
         left: 0;
@@ -544,6 +554,7 @@
 @media only screen 
   and (min-device-width: 200px) 
   and (max-device-width: 319px ) {
+
     h1 {
         width: 14.0625rem;
         letter-spacing: 0.4375rem;
@@ -553,7 +564,7 @@
 
     h2 {
         padding-top: 2.5rem;
-        font-size: 2.8125rem;
+        font-size: 2.1875rem;
         letter-spacing: 0.3125rem;
         height: 6.25rem;
         &.skills {
@@ -576,10 +587,10 @@
 
     .navbar-brand {
         .logo {
-            width: 40%;
+            width: 50%;
         }
     }
-
+    
     .hero {
         height: 500px;
         background-position: left;

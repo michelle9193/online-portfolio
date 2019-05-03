@@ -50,6 +50,7 @@ May 3, 2019
 
 - updated readme
 - fixed nav burger
+- added new project to portfolio
 
 ```
 
