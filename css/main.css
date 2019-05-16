@@ -126,8 +126,8 @@ footer {
   width: 43.75rem;
   height: 220px;
   position: absolute;
-  top: 92.5%;
-  left: 11.5%; }
+  top: 88.2%;
+  left: 12%; }
   .about-me-block p {
     color: #f0ffff;
     font-family: 'Abel';
@@ -161,7 +161,7 @@ footer {
         font-weight: bold;
         margin: auto; }
         .about-me-block div button a:hover {
-          color: #ffff00c0; }
+          color: #f0ffff; }
 
 @keyframes pulse_animation {
   0% {

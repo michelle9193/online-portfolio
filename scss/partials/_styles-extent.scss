@@ -58,8 +58,8 @@
     width: 43.75rem;
     height: 220px;
     position: absolute;
-    top: 92.5%;
-    left: 11.5%;
+    top: 88.2%;
+    left: 12%;
     p {
         color: $color-body;
         font-family: 'Abel';
@@ -98,7 +98,7 @@
             font-weight: bold;
             margin: auto;
             &:hover {
-                color: $color-prim;
+                color: $color-text-light;
             }
             }
         }
