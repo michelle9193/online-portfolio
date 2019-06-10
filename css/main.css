@@ -1,36 +1,41 @@
-@import "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css";
-@import "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
-@import "https://fonts.googleapis.com/css?family=Raleway|Righteous|Oswald|Abel|Muli:900|Titillium+Web:900|Dancing+Script";
-@import "https://use.fontawesome.com/releases/v5.8.1/css/all.css";
-@import "https://unpkg.com/aos@2.3.1/dist/aos.css";
+@import 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css';
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css';
+@import 'https://fonts.googleapis.com/css?family=Raleway|Righteous|Oswald|Abel|Muli:900|Titillium+Web:900|Dancing+Script';
+@import 'https://use.fontawesome.com/releases/v5.8.1/css/all.css';
+@import 'https://unpkg.com/aos@2.3.1/dist/aos.css';
 * {
-  font-family: 'Raleway';
-  scroll-behavior: smooth; }
+  font-family: "Raleway";
+  scroll-behavior: smooth;
+}
 
 nav {
-  margin: 0; }
+  margin: 0;
+}
 
 h1 {
   width: 28.125rem;
   word-wrap: break-word;
   text-transform: uppercase;
   color: #f0ffff;
-  font-family: 'Titillium Web';
+  font-family: "Titillium Web";
   letter-spacing: 0.625rem;
-  font-size: 4.375rem; }
+  font-size: 4.375rem;
+}
 
 h2 {
-  font-family: 'Titillium Web';
+  font-family: "Titillium Web";
   color: #f0ffff;
   text-transform: uppercase;
   text-align: center;
   padding-top: 3.75rem;
   font-size: 3.75rem;
   letter-spacing: 0.3125rem;
-  height: 15.625rem; }
-  h2.skills {
-    color: #3d475f;
-    height: 12.5rem; }
+  height: 15.625rem;
+}
+h2.skills {
+  color: #3d475f;
+  height: 12.5rem;
+}
 
 h3 {
   font-weight: bold;
@@ -38,30 +43,35 @@ h3 {
   letter-spacing: 0.75rem;
   font-size: 1.875rem;
   color: #778FAB;
-  margin: 0; }
+  margin: 0;
+}
 
 h4 {
   color: #98adc2;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   margin-top: 0.625rem;
   margin-bottom: 1.25rem;
   text-transform: uppercase;
-  letter-spacing: 0.3125rem; }
+  letter-spacing: 0.3125rem;
+}
 
 img {
   object-fit: cover;
   max-width: 100%;
-  max-height: 100%; }
+  max-height: 100%;
+}
 
 footer {
   background: #3d475f;
   height: 3.125rem;
-  padding-top: 1.25rem; }
-  footer p {
-    color: #f0ffff;
-    margin: 0;
-    text-align: center;
-    letter-spacing: 0.0625rem; }
+  padding-top: 1.25rem;
+}
+footer p {
+  color: #f0ffff;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 0.0625rem;
+}
 
 #myBtn {
   display: none;
@@ -78,27 +88,33 @@ footer {
   height: 3.125rem;
   border-radius: 50%;
   color: white;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .navbar-brand {
   width: 30%;
-  margin-left: 20px; }
-  .navbar-brand .logo {
-    width: 18%; }
+  margin-left: 20px;
+}
+.navbar-brand .logo {
+  width: 18%;
+}
 
 .nav-item {
   text-transform: uppercase;
   margin-right: 15%;
   letter-spacing: 0.0625rem;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 .nav-link {
-  color: rgba(0, 0, 0, 0.5); }
-  .nav-link:hover {
-    position: relative;
-    border-bottom: 0.125rem dotted #ffff00c0;
-    height: 2.5rem;
-    color: #000; }
+  color: rgba(0, 0, 0, 0.5);
+}
+.nav-link:hover {
+  position: relative;
+  border-bottom: 0.125rem dotted #ffff00c0;
+  height: 2.5rem;
+  color: #000;
+}
 
 .hero {
   height: 700px;
@@ -106,19 +122,23 @@ footer {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
-  .hero section {
-    margin-top: 5.625rem;
-    margin-left: 10rem; }
-  .hero span {
-    color: #ffff00c0;
-    font-family: 'Titillium Web'; }
-  .hero p {
-    margin-top: 1.875rem;
-    font-family: 'Abel';
-    color: #f0ffff;
-    font-size: 1.5625rem;
-    letter-spacing: 0.1875rem; }
+  background-position: center;
+}
+.hero section {
+  margin-top: 5.625rem;
+  margin-left: 10rem;
+}
+.hero span {
+  color: #ffff00c0;
+  font-family: "Titillium Web";
+}
+.hero p {
+  margin-top: 1.875rem;
+  font-family: "Abel";
+  color: #f0ffff;
+  font-size: 1.5625rem;
+  letter-spacing: 0.1875rem;
+}
 
 .about-me-block {
   background-color: #3d475f;
@@ -126,158 +146,195 @@ footer {
   width: 43.75rem;
   height: 220px;
   position: absolute;
-  top: 88.2%;
-  left: 12%; }
-  .about-me-block p {
-    color: #f0ffff;
-    font-family: 'Abel';
-    font-size: 1.375rem;
-    margin-bottom: 8px; }
-  .about-me-block section {
-    color: #ffff00c0;
-    text-align: center;
-    letter-spacing: 1px;
-    line-height: 30px; }
-  .about-me-block div {
-    text-align: center;
-    padding-top: 0.9375rem; }
-    .about-me-block div button {
-      background-color: #909AB5;
-      opacity: 0.8;
-      border: none;
-      margin: auto;
-      padding: 0.625rem;
-      border-radius: 0.3125rem;
-      width: 8.75rem; }
-      .about-me-block div button.pulse {
-        animation-name: pulse_animation;
-        animation-duration: 5000ms;
-        transform-origin: 70% 70%;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear; }
-      .about-me-block div button a {
-        text-decoration: none;
-        color: #000;
-        font-weight: bold;
-        margin: auto; }
-        .about-me-block div button a:hover {
-          color: #f0ffff; }
+  top: 92.7%;
+  left: 11.5%;
+}
+.about-me-block p {
+  color: #f0ffff;
+  font-family: "Abel";
+  font-size: 1.375rem;
+  margin-bottom: 8px;
+}
+.about-me-block section {
+  color: #ffff00c0;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+.about-me-block div {
+  text-align: center;
+  padding-top: 0.9375rem;
+}
+.about-me-block div button {
+  background-color: #909AB5;
+  opacity: 0.8;
+  border: none;
+  margin: auto;
+  padding: 0.625rem;
+  border-radius: 0.3125rem;
+  width: 8.75rem;
+}
+.about-me-block div button.pulse {
+  animation-name: pulse_animation;
+  animation-duration: 5000ms;
+  transform-origin: 70% 70%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.about-me-block div button a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  margin: auto;
+}
+.about-me-block div button a:hover {
+  color: #f0ffff;
+}
 
 @keyframes pulse_animation {
   0% {
-    transform: scale(1); }
+    transform: scale(1);
+  }
   30% {
-    transform: scale(1); }
+    transform: scale(1);
+  }
   40% {
-    transform: scale(1.08); }
+    transform: scale(1.08);
+  }
   50% {
-    transform: scale(1); }
+    transform: scale(1);
+  }
   60% {
-    transform: scale(1); }
+    transform: scale(1);
+  }
   70% {
-    transform: scale(1.05); }
+    transform: scale(1.05);
+  }
   80% {
-    transform: scale(1); }
+    transform: scale(1);
+  }
   100% {
-    transform: scale(1); } }
+    transform: scale(1);
+  }
+}
 .my-skills-section {
   background-image: url(../images/computer-device-electronics-872958.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 40.625rem;
   background-position: center;
-  border-bottom: 0.0625rem solid #ffff00c0; }
-  .my-skills-section div {
-    margin: auto;
-    width: 20.625rem; }
-  .my-skills-section i {
-    font-size: 2.5rem;
-    border: #000 solid 0.1875rem;
-    margin: auto;
-    width: 6.25rem;
-    height: 6.25rem;
-    text-align: center;
-    padding: 1.875rem 1.25rem;
-    border-radius: 50%;
-    background-color: #80808080; }
-    .my-skills-section i:hover {
-      background-color: #ffff00c0; }
-    .my-skills-section i:hover p {
-      display: block;
-      transition-duration: 5s;
-      transition-delay: 2s; }
-    .my-skills-section i p {
-      font-size: 0.875rem;
-      margin-top: 3.125rem;
-      font-family: 'Raleway';
-      font-weight: bold;
-      display: none; }
+  border-bottom: 0.0625rem solid #ffff00c0;
+}
+.my-skills-section div {
+  margin: auto;
+  width: 20.625rem;
+}
+.my-skills-section i {
+  font-size: 2.5rem;
+  border: #000 solid 0.1875rem;
+  margin: auto;
+  width: 6.25rem;
+  height: 6.25rem;
+  text-align: center;
+  padding: 1.875rem 1.25rem;
+  border-radius: 50%;
+  background-color: #80808080;
+}
+.my-skills-section i:hover {
+  background-color: #ffff00c0;
+}
+.my-skills-section i:hover p {
+  display: block;
+  transition-duration: 5s;
+  transition-delay: 2s;
+}
+.my-skills-section i p {
+  font-size: 0.875rem;
+  margin-top: 3.125rem;
+  font-family: "Raleway";
+  font-weight: bold;
+  display: none;
+}
 
 .experience-section {
   margin: 0 auto;
   width: 50rem;
-  padding: 4.375rem 0; }
-  .experience-section p:nth-of-type(odd) {
-    font-weight: bold;
-    line-height: 1.875rem; }
-  .experience-section p:nth-of-type(even) {
-    height: 3.4375rem; }
-  .experience-section div:nth-of-type(even) {
-    margin-left: 3.125rem; }
+  padding: 4.375rem 0;
+}
+.experience-section p:nth-of-type(odd) {
+  font-weight: bold;
+  line-height: 1.875rem;
+}
+.experience-section p:nth-of-type(even) {
+  height: 3.4375rem;
+}
+.experience-section div:nth-of-type(even) {
+  margin-left: 3.125rem;
+}
 
 .portfolio-section {
   background-color: #3d475f;
-  height: 40rem; }
-  .portfolio-section section {
-    position: relative;
-    width: 50%; }
-    .portfolio-section section.projects {
-      height: 12.5rem;
-      width: 1250px;
-      margin: 0 auto; }
-      .portfolio-section section.projects div {
-        width: 26.875rem;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: #000; }
-        .portfolio-section section.projects div p {
-          color: #f0ffff;
-          text-align: center;
-          margin-top: 2.5rem; }
-        .portfolio-section section.projects div button {
-          background-color: #f0ffff;
-          padding: 0;
-          width: 6.25rem;
-          border: none;
-          border-radius: 0.125rem;
-          font-size: 1.25rem;
-          position: absolute;
-          top: 60%;
-          left: 50%;
-          -webkit-transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-          text-align: center;
-          opacity: 1; }
-          .portfolio-section section.projects div button a {
-            text-decoration: none;
-            font-size: 0.9375rem;
-            color: #000; }
-      .portfolio-section section.projects section {
-        padding: 0;
-        width: 500px;
-        margin: 0; }
+  height: 40rem;
+}
+.portfolio-section section {
+  position: relative;
+  width: 50%;
+}
+.portfolio-section section.projects {
+  height: 12.5rem;
+  width: 1250px;
+  margin: 0 auto;
+}
+.portfolio-section section.projects div {
+  width: 26.875rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #000;
+}
+.portfolio-section section.projects div p {
+  color: #f0ffff;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+.portfolio-section section.projects div button {
+  background-color: #f0ffff;
+  padding: 0;
+  width: 6.25rem;
+  border: none;
+  border-radius: 0.125rem;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 1;
+}
+.portfolio-section section.projects div button a {
+  text-decoration: none;
+  font-size: 0.9375rem;
+  color: #000;
+}
+.portfolio-section section.projects section {
+  padding: 0;
+  width: 500px;
+  margin: 0;
+}
 
 .blog {
-  width: 300px; }
+  width: 300px;
+}
 
 .container:hover .overlay {
-  opacity: 0.9; }
+  opacity: 0.9;
+}
 
 .contact-me {
   height: 12.5rem;
@@ -285,207 +342,259 @@ footer {
   padding-top: 1.25rem;
   background-image: linear-gradient(rgba(144, 154, 181, 0.5), rgba(144, 154, 181, 0.5)), url(../images/qd6ZpU.jpg);
   background-repeat: no-repeat;
-  background-size: cover; }
-  .contact-me i {
-    font-size: 1.875rem;
-    margin: 1.875rem;
-    color: #f0ffff;
-    border-radius: 50%;
-    background-color: #3d475f;
-    height: 3.75rem;
-    width: 3.75rem;
-    padding: 1rem; }
-    .contact-me i:hover {
-      background-color: #ffff00c0;
-      color: #3d475f; }
-  .contact-me .menu-items {
-    font-size: 1.0625rem;
-    word-spacing: 1.875rem; }
-    .contact-me .menu-items a {
-      color: #ffff00c0;
-      text-decoration: none;
-      font-weight: bold;
-      letter-spacing: 0.1875rem; }
+  background-size: cover;
+}
+.contact-me i {
+  font-size: 1.875rem;
+  margin: 1.875rem;
+  color: #f0ffff;
+  border-radius: 50%;
+  background-color: #3d475f;
+  height: 3.75rem;
+  width: 3.75rem;
+  padding: 1rem;
+}
+.contact-me i:hover {
+  background-color: #ffff00c0;
+  color: #3d475f;
+}
+.contact-me .menu-items {
+  font-size: 1.0625rem;
+  word-spacing: 1.875rem;
+}
+.contact-me .menu-items a {
+  color: #ffff00c0;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.1875rem;
+}
 
 .fa-1x {
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+}
 
 .navbar-toggler.toggler-example {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .dark-blue-text {
-  color: #0A38F5; }
+  color: #0A38F5;
+}
 
 .dark-pink-text {
-  color: #AC003A; }
+  color: #AC003A;
+}
 
 .dark-amber-text {
-  color: #ff6f00; }
+  color: #ff6f00;
+}
 
 .dark-teal-text {
-  color: #004d40; }
+  color: #004d40;
+}
 
 @media only screen and (min-device-width: 1025px) and (max-device-width: 1339px) {
   h1 {
-    font-size: 58px; }
+    font-size: 58px;
+  }
 
   h2 {
     padding-top: 3.75rem;
     font-size: 2.8125rem;
     letter-spacing: 0.25rem;
-    height: 9.375rem; }
+    height: 9.375rem;
+  }
 
   .nav-item {
     text-transform: uppercase;
     margin-right: 2.5rem;
     letter-spacing: 0.0625rem;
-    font-weight: 500; }
+    font-weight: 500;
+  }
 
   .hero {
     height: 50rem;
     background-image: linear-gradient(rgba(144, 154, 181, 0.5), rgba(144, 154, 181, 0.5)), url(../images/bg-image2.png);
-    background-position: left; }
-    .hero section {
-      margin-top: 5.625rem;
-      margin-left: 60px; }
+    background-position: left;
+  }
+  .hero section {
+    margin-top: 5.625rem;
+    margin-left: 60px;
+  }
 
   .about-me-block {
     border: none;
     padding: 0.9375rem;
     width: 478px;
     top: 126%;
-    left: 0; }
-    .about-me-block p {
-      font-size: 1.25rem; }
-    .about-me-block section {
-      font-size: 0.9375rem;
-      letter-spacing: 0;
-      line-height: 22px;
-      margin-bottom: 0; }
+    left: 0;
+  }
+  .about-me-block p {
+    font-size: 1.25rem;
+  }
+  .about-me-block section {
+    font-size: 0.9375rem;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-bottom: 0;
+  }
 
   .my-skills-section {
-    height: 40rem; }
-    .my-skills-section div {
-      margin: auto;
-      width: 20.625rem; }
-      .my-skills-section div.my-skills {
-        grid-gap: 5rem; }
+    height: 40rem;
+  }
+  .my-skills-section div {
+    margin: auto;
+    width: 20.625rem;
+  }
+  .my-skills-section div.my-skills {
+    grid-gap: 5rem;
+  }
 
   .portfolio-section {
-    height: 50rem; }
-    .portfolio-section section {
-      position: relative;
-      grid-template-columns: repeat(1, 62.5rem);
-      height: 12.5rem;
-      margin-bottom: 10px; }
-      .portfolio-section section.projects {
-        height: 25rem;
-        width: 62.5rem;
-        margin: auto; }
-        .portfolio-section section.projects section img {
-          height: 500px;
-          width: 500px; } }
+    height: 50rem;
+  }
+  .portfolio-section section {
+    position: relative;
+    grid-template-columns: repeat(1, 62.5rem);
+    height: 12.5rem;
+    margin-bottom: 10px;
+  }
+  .portfolio-section section.projects {
+    height: 25rem;
+    width: 62.5rem;
+    margin: auto;
+  }
+  .portfolio-section section.projects section img {
+    height: 500px;
+    width: 500px;
+  }
+}
 @media only screen and (min-device-width: 1001px) and (max-device-width: 1024px) {
   h1 {
-    font-size: 58px; }
+    font-size: 58px;
+  }
 
   h2 {
     padding-top: 3.75rem;
     font-size: 2.8125rem;
     letter-spacing: 0.25rem;
-    height: 9.375rem; }
+    height: 9.375rem;
+  }
 
   .nav-item {
     text-transform: uppercase;
     margin-right: 2.5rem;
     letter-spacing: 0.0625rem;
-    font-weight: 500; }
+    font-weight: 500;
+  }
 
   .hero {
     height: 50rem;
     background-image: linear-gradient(rgba(144, 154, 181, 0.5), rgba(144, 154, 181, 0.5)), url(../images/bg-image2.png);
-    background-position: left; }
-    .hero section {
-      margin-top: 5.625rem;
-      margin-left: 60px; }
+    background-position: left;
+  }
+  .hero section {
+    margin-top: 5.625rem;
+    margin-left: 60px;
+  }
 
   .about-me-block {
     border: none;
     padding: 0.9375rem;
-    width: 466px;
-    top: 125.9%;
-    left: 0; }
-    .about-me-block p {
-      font-size: 1.25rem; }
-    .about-me-block section {
-      font-size: 0.9375rem;
-      letter-spacing: 0;
-      line-height: 22px;
-      margin-bottom: 0; }
-    .about-me-block div button {
-      padding: 7px; }
+    width: 478px;
+    top: 122.75%;
+    left: 0;
+  }
+  .about-me-block p {
+    font-size: 1.25rem;
+  }
+  .about-me-block section {
+    font-size: 0.9375rem;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-bottom: 0;
+  }
+  .about-me-block div button {
+    padding: 7px;
+  }
 
   .my-skills-section {
-    height: 40rem; }
-    .my-skills-section div {
-      margin: auto;
-      width: 20.625rem; }
-      .my-skills-section div.my-skills {
-        grid-gap: 5rem; }
+    height: 40rem;
+  }
+  .my-skills-section div {
+    margin: auto;
+    width: 20.625rem;
+  }
+  .my-skills-section div.my-skills {
+    grid-gap: 5rem;
+  }
 
   .portfolio-section {
-    height: 50rem; }
-    .portfolio-section section {
-      position: relative;
-      grid-template-columns: repeat(1, 62.5rem);
-      height: 12.5rem;
-      margin-bottom: 10px; }
-      .portfolio-section section.projects {
-        height: 25rem;
-        width: 62.5rem;
-        margin: auto; }
-        .portfolio-section section.projects section img {
-          height: 500px;
-          width: 500px; } }
+    height: 50rem;
+  }
+  .portfolio-section section {
+    position: relative;
+    grid-template-columns: repeat(1, 62.5rem);
+    height: 12.5rem;
+    margin-bottom: 10px;
+  }
+  .portfolio-section section.projects {
+    height: 25rem;
+    width: 62.5rem;
+    margin: auto;
+  }
+  .portfolio-section section.projects section img {
+    height: 500px;
+    width: 500px;
+  }
+}
 @media only screen and (min-device-width: 481px) and (max-device-width: 1000px) {
   h1 {
     width: 15.625rem;
     line-height: 3.75rem;
     height: 12.5rem;
     font-size: 2.8125rem;
-    letter-spacing: 0.3125rem; }
+    letter-spacing: 0.3125rem;
+  }
 
   h2 {
     padding-top: 2.5rem;
     font-size: 2.8125rem;
     letter-spacing: 0.3125rem;
-    height: 7.5rem; }
-    h2.skills {
-      height: 9.0625rem;
-      padding-top: 2.5rem; }
+    height: 7.5rem;
+  }
+  h2.skills {
+    height: 9.0625rem;
+    padding-top: 2.5rem;
+  }
 
   h3 {
     text-align: center;
     letter-spacing: 0.625rem;
-    font-size: 1.875rem; }
+    font-size: 1.875rem;
+  }
 
   h4 {
     text-align: center;
     font-size: 1.125rem;
     margin: 1.25rem 0;
-    letter-spacing: 0.1875rem; }
+    letter-spacing: 0.1875rem;
+  }
 
   .hero {
     height: 43.75rem;
-    background-image: linear-gradient(rgba(144, 154, 181, 0.5), rgba(144, 154, 181, 0.5)), url(../images/profile-image.png); }
-    .hero section {
-      margin-left: 5rem; }
-    .hero p {
-      margin-top: 0;
-      font-size: 1.25rem;
-      width: 18.75rem;
-      letter-spacing: 0.1875rem;
-      line-height: 1.875rem; }
+    background-image: linear-gradient(rgba(144, 154, 181, 0.5), rgba(144, 154, 181, 0.5)), url(../images/profile-image.png);
+  }
+  .hero section {
+    margin-left: 5rem;
+  }
+  .hero p {
+    margin-top: 0;
+    font-size: 1.25rem;
+    width: 18.75rem;
+    letter-spacing: 0.1875rem;
+    line-height: 1.875rem;
+  }
 
   .about-me-block {
     padding: 0.9375rem;
@@ -493,132 +602,169 @@ footer {
     height: 200px;
     position: absolute;
     top: 105%;
-    left: 0; }
-    .about-me-block p {
-      font-size: 1.125rem; }
-    .about-me-block section {
-      font-size: 0.9375rem;
-      letter-spacing: 0;
-      line-height: 22px;
-      margin-bottom: 15px; }
-    .about-me-block div {
-      padding: 0; }
-      .about-me-block div button {
-        padding: 5px;
-        width: 6.25rem; }
-        .about-me-block div button a {
-          font-size: 0.875rem; }
+    left: 0;
+  }
+  .about-me-block p {
+    font-size: 1.125rem;
+  }
+  .about-me-block section {
+    font-size: 0.9375rem;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-bottom: 15px;
+  }
+  .about-me-block div {
+    padding: 0;
+  }
+  .about-me-block div button {
+    padding: 5px;
+    width: 6.25rem;
+  }
+  .about-me-block div button a {
+    font-size: 0.875rem;
+  }
 
   .my-skills-section {
     height: 35.625rem;
-    background-position: right; }
-    .my-skills-section div {
-      margin: 0 auto;
-      width: auto; }
-      .my-skills-section div.my-skills {
-        grid-gap: 30px;
-        grid-template-columns: repeat(3, auto);
-        width: 28.75rem; }
+    background-position: right;
+  }
+  .my-skills-section div {
+    margin: 0 auto;
+    width: auto;
+  }
+  .my-skills-section div.my-skills {
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, auto);
+    width: 28.75rem;
+  }
 
   .experience-section {
     width: auto;
-    padding: 20px 20px; }
-    .experience-section .experience-grid {
-      margin: 0 auto;
-      width: auto;
-      display: block; }
-      .experience-section .experience-grid p {
-        text-align: center; }
-      .experience-section .experience-grid p:nth-of-type(odd) {
-        font-weight: bold;
-        line-height: 1.5625rem; }
-      .experience-section .experience-grid p:nth-of-type(even) {
-        height: 3.125rem; }
-      .experience-section .experience-grid div:nth-of-type(even) {
-        margin: 0; }
+    padding: 20px 20px;
+  }
+  .experience-section .experience-grid {
+    margin: 0 auto;
+    width: auto;
+    display: block;
+  }
+  .experience-section .experience-grid p {
+    text-align: center;
+  }
+  .experience-section .experience-grid p:nth-of-type(odd) {
+    font-weight: bold;
+    line-height: 1.5625rem;
+  }
+  .experience-section .experience-grid p:nth-of-type(even) {
+    height: 3.125rem;
+  }
+  .experience-section .experience-grid div:nth-of-type(even) {
+    margin: 0;
+  }
 
   .portfolio-section {
-    height: 50rem; }
-    .portfolio-section section {
-      height: 12.5rem; }
-      .portfolio-section section.projects {
-        width: 450px;
-        display: block;
-        grid-template-columns: 1fr; }
-        .portfolio-section section.projects section {
-          width: 450px;
-          margin: 0;
-          margin-top: 20px; }
-          .portfolio-section section.projects section img {
-            height: 200px;
-            width: 700px;
-            margin-right: 0; }
-          .portfolio-section section.projects section div {
-            width: 450px;
-            height: 200px; }
+    height: 50rem;
+  }
+  .portfolio-section section {
+    height: 12.5rem;
+  }
+  .portfolio-section section.projects {
+    width: 450px;
+    display: block;
+    grid-template-columns: 1fr;
+  }
+  .portfolio-section section.projects section {
+    width: 450px;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .portfolio-section section.projects section img {
+    height: 200px;
+    width: 700px;
+    margin-right: 0;
+  }
+  .portfolio-section section.projects section div {
+    width: 450px;
+    height: 200px;
+  }
 
   .contact-me {
     height: 9.375rem;
-    text-align: center; }
-    .contact-me i {
-      font-size: 1.25rem;
-      margin: 1.25rem;
-      height: 2.5rem;
-      width: 2.5rem;
-      padding: 0.625rem; }
-    .contact-me .menu-items {
-      font-size: 0.75rem;
-      word-spacing: 0.3125rem;
-      margin-top: 0.75rem; }
+    text-align: center;
+  }
+  .contact-me i {
+    font-size: 1.25rem;
+    margin: 1.25rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 0.625rem;
+  }
+  .contact-me .menu-items {
+    font-size: 0.75rem;
+    word-spacing: 0.3125rem;
+    margin-top: 0.75rem;
+  }
 
   footer {
     height: 3.125rem;
-    padding-top: 20px; }
-    footer p {
-      letter-spacing: 0.0313rem;
-      font-size: 0.5rem; } }
+    padding-top: 20px;
+  }
+  footer p {
+    letter-spacing: 0.0313rem;
+    font-size: 0.5rem;
+  }
+}
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   h1 {
     width: 14.0625rem;
     letter-spacing: 0.4375rem;
     line-height: 3.125rem;
-    font-size: 38px; }
+    font-size: 38px;
+  }
 
   h2 {
     padding-top: 2.5rem;
     font-size: 2.1875rem;
     letter-spacing: 0.3125rem;
-    height: 6.25rem; }
-    h2.skills {
-      height: 9.0625rem;
-      padding-top: 2.5rem; }
+    height: 6.25rem;
+  }
+  h2.skills {
+    height: 9.0625rem;
+    padding-top: 2.5rem;
+  }
 
   h3 {
     text-align: left;
     letter-spacing: 0.625rem;
-    font-size: 1.5625rem; }
+    font-size: 1.5625rem;
+  }
 
   h4 {
     font-size: 1.125rem;
     margin: 1.25rem 0;
-    letter-spacing: 0.1875rem; }
+    letter-spacing: 0.1875rem;
+  }
 
   .navbar-brand {
-    width: 20%; }
-    .navbar-brand .logo {
-      width: 70%; }
+    width: 20%;
+  }
+  .navbar-brand .logo {
+    width: 70%;
+  }
 
   .hero {
     height: 565px;
-    background-position: left; }
-    .hero section {
-      margin-top: 4.375rem;
-      margin-left: 3.75rem; }
-    .hero p {
-      margin-top: 0.625rem;
-      line-height: 1.875rem;
-      font-size: 1.125rem;
-      letter-spacing: 0.1875rem; }
+    background-position: left;
+  }
+  .hero section {
+    margin-top: 4.375rem;
+    margin-left: 3.75rem;
+  }
+  .hero p {
+    margin-top: 0.625rem;
+    line-height: 1.875rem;
+    font-size: 1.125rem;
+    letter-spacing: 0.1875rem;
+  }
 
   .about-me-block {
     background-color: #3d475f;
@@ -626,135 +772,170 @@ footer {
     width: auto;
     height: 200px;
     position: absolute;
-    top: 93%;
-    left: 0; }
-    .about-me-block p {
-      color: #f0ffff;
-      font-family: 'Abel';
-      font-size: 15px; }
-    .about-me-block section {
-      font-size: 12px;
-      letter-spacing: 0;
-      line-height: 19px; }
-    .about-me-block div button {
-      padding: 0.3125rem;
-      width: 6.25rem; }
-      .about-me-block div button a {
-        font-size: 0.875rem; }
+    top: 82%;
+    left: 0;
+  }
+  .about-me-block p {
+    color: #f0ffff;
+    font-family: "Abel";
+    font-size: 15px;
+  }
+  .about-me-block section {
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 19px;
+  }
+  .about-me-block div button {
+    padding: 0.3125rem;
+    width: 6.25rem;
+  }
+  .about-me-block div button a {
+    font-size: 0.875rem;
+  }
 
   .my-skills-section {
-    height: 670px; }
-    .my-skills-section div {
-      margin: 0 auto;
-      width: auto; }
-      .my-skills-section div.my-skills {
-        grid-gap: 30px;
-        grid-template-columns: repeat(2, auto); }
-    .my-skills-section i {
-      font-size: 1.875rem;
-      width: 5rem;
-      height: 5rem;
-      padding: 1.25rem 0.625rem;
-      margin-bottom: 1.25rem; }
-      .my-skills-section i p {
-        font-size: 12px;
-        margin-top: 35px; }
+    height: 670px;
+  }
+  .my-skills-section div {
+    margin: 0 auto;
+    width: auto;
+  }
+  .my-skills-section div.my-skills {
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, auto);
+  }
+  .my-skills-section i {
+    font-size: 1.875rem;
+    width: 5rem;
+    height: 5rem;
+    padding: 1.25rem 0.625rem;
+    margin-bottom: 1.25rem;
+  }
+  .my-skills-section i p {
+    font-size: 12px;
+    margin-top: 35px;
+  }
 
   .experience-section {
     width: auto;
-    padding: 20px 20px; }
-    .experience-section .experience-grid {
-      margin: 0 auto;
-      width: auto;
-      display: block; }
-      .experience-section .experience-grid div:nth-of-type(even) {
-        margin: 0; }
+    padding: 20px 20px;
+  }
+  .experience-section .experience-grid {
+    margin: 0 auto;
+    width: auto;
+    display: block;
+  }
+  .experience-section .experience-grid div:nth-of-type(even) {
+    margin: 0;
+  }
 
   .portfolio-section {
-    height: 50rem; }
-    .portfolio-section section {
-      height: 12.5rem; }
-      .portfolio-section section.projects {
-        height: 25rem;
-        width: 300px;
-        display: block;
-        grid-template-columns: repeat(1, 26.875rem); }
-        .portfolio-section section.projects section {
-          width: 300px;
-          margin: 0;
-          margin-top: 20px; }
-          .portfolio-section section.projects section img {
-            height: 200px;
-            width: 300px;
-            margin-right: 0; }
-          .portfolio-section section.projects section div {
-            width: 300px;
-            height: 200px; }
-            .portfolio-section section.projects section div p {
-              color: #f0ffff;
-              text-align: center;
-              margin-top: 30px; }
+    height: 50rem;
+  }
+  .portfolio-section section {
+    height: 12.5rem;
+  }
+  .portfolio-section section.projects {
+    height: 25rem;
+    width: 300px;
+    display: block;
+    grid-template-columns: repeat(1, 26.875rem);
+  }
+  .portfolio-section section.projects section {
+    width: 300px;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .portfolio-section section.projects section img {
+    height: 200px;
+    width: 300px;
+    margin-right: 0;
+  }
+  .portfolio-section section.projects section div {
+    width: 300px;
+    height: 200px;
+  }
+  .portfolio-section section.projects section div p {
+    color: #f0ffff;
+    text-align: center;
+    margin-top: 30px;
+  }
 
   .contact-me {
     height: 9.375rem;
-    text-align: center; }
-    .contact-me i {
-      font-size: 1.25rem;
-      margin: 1.25rem;
-      height: 2.5rem;
-      width: 2.5rem;
-      padding: 0.625rem; }
-    .contact-me .menu-items {
-      font-size: 0.625rem;
-      word-spacing: 0.3125rem;
-      margin-top: 0.75rem; }
+    text-align: center;
+  }
+  .contact-me i {
+    font-size: 1.25rem;
+    margin: 1.25rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 0.625rem;
+  }
+  .contact-me .menu-items {
+    font-size: 0.625rem;
+    word-spacing: 0.3125rem;
+    margin-top: 0.75rem;
+  }
 
   footer {
     height: 3.125rem;
-    padding-top: 20px; }
-    footer p {
-      letter-spacing: 0.0313rem;
-      font-size: 0.5rem; } }
+    padding-top: 20px;
+  }
+  footer p {
+    letter-spacing: 0.0313rem;
+    font-size: 0.5rem;
+  }
+}
 @media only screen and (min-device-width: 200px) and (max-device-width: 319px) {
   h1 {
     width: 14.0625rem;
     letter-spacing: 0.4375rem;
     line-height: 3.125rem;
-    font-size: 38px; }
+    font-size: 38px;
+  }
 
   h2 {
     padding-top: 2.5rem;
     font-size: 2.1875rem;
     letter-spacing: 0.3125rem;
-    height: 6.25rem; }
-    h2.skills {
-      height: 9.0625rem;
-      padding-top: 2.5rem; }
+    height: 6.25rem;
+  }
+  h2.skills {
+    height: 9.0625rem;
+    padding-top: 2.5rem;
+  }
 
   h3 {
     text-align: left;
     letter-spacing: 0.625rem;
-    font-size: 1.5625rem; }
+    font-size: 1.5625rem;
+  }
 
   h4 {
     font-size: 1.125rem;
     margin: 1.25rem 0;
-    letter-spacing: 0.1875rem; }
+    letter-spacing: 0.1875rem;
+  }
 
   .navbar-brand .logo {
-    width: 50%; }
+    width: 50%;
+  }
 
   .hero {
-    height: 500px;
-    background-position: left; }
-    .hero section {
-      margin-top: 4.375rem;
-      margin-left: 30px; }
-    .hero p {
-      margin-top: 0.625rem;
-      line-height: 1.875rem;
-      font-size: 1.125rem;
-      letter-spacing: 0.1875rem; }
+    height: 31.25rem;
+    background-position: left;
+  }
+  .hero section {
+    margin-top: 3.4375rem;
+    margin-left: 1.875rem;
+  }
+  .hero p {
+    margin-top: 0.625rem;
+    line-height: 1.875rem;
+    font-size: 1.125rem;
+    letter-spacing: 0.1875rem;
+  }
 
   .about-me-block {
     background-color: #3d475f;
@@ -762,109 +943,138 @@ footer {
     width: 300px;
     height: 193px;
     position: absolute;
-    top: 78%;
-    left: 0; }
-    .about-me-block p {
-      color: #f0ffff;
-      font-family: 'Abel';
-      font-size: 15px;
-      margin-bottom: 0; }
-    .about-me-block section {
-      font-size: 12px;
-      letter-spacing: 0;
-      line-height: 19px; }
-    .about-me-block div button {
-      padding: 0.3125rem;
-      width: 6.25rem; }
-      .about-me-block div button a {
-        font-size: 0.875rem; }
+    top: 70%;
+    left: 0;
+  }
+  .about-me-block p {
+    color: #f0ffff;
+    font-family: "Abel";
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .about-me-block section {
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 19px;
+  }
+  .about-me-block div button {
+    padding: 0.3125rem;
+    width: 6.25rem;
+  }
+  .about-me-block div button a {
+    font-size: 0.875rem;
+  }
 
   .my-skills-section {
-    height: 670px; }
-    .my-skills-section div {
-      margin: 0 auto;
-      width: auto; }
-      .my-skills-section div.my-skills {
-        grid-gap: 20px;
-        grid-template-columns: repeat(2, 140px); }
-    .my-skills-section i {
-      font-size: 1.875rem;
-      width: 5rem;
-      height: 5rem;
-      padding: 1.25rem 0.625rem;
-      margin-bottom: 1.25rem; }
-      .my-skills-section i p {
-        font-size: 12px;
-        margin-top: 35px; }
+    height: 670px;
+  }
+  .my-skills-section div {
+    margin: 0 auto;
+    width: auto;
+  }
+  .my-skills-section div.my-skills {
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 140px);
+  }
+  .my-skills-section i {
+    font-size: 1.875rem;
+    width: 5rem;
+    height: 5rem;
+    padding: 1.25rem 0.625rem;
+    margin-bottom: 1.25rem;
+  }
+  .my-skills-section i p {
+    font-size: 12px;
+    margin-top: 35px;
+  }
 
   .experience-section {
     width: auto;
-    padding: 20px 20px; }
-    .experience-section .experience-grid {
-      margin: 0 auto;
-      width: auto;
-      display: block; }
-      .experience-section .experience-grid div:nth-of-type(even) {
-        margin: 0; }
+    padding: 20px 20px;
+  }
+  .experience-section .experience-grid {
+    margin: 0 auto;
+    width: auto;
+    display: block;
+  }
+  .experience-section .experience-grid div:nth-of-type(even) {
+    margin: 0;
+  }
 
   .portfolio-section {
-    height: 50rem; }
-    .portfolio-section section {
-      height: 12.5rem; }
-      .portfolio-section section.projects {
-        height: 25rem;
-        width: 300px;
-        display: block;
-        grid-template-columns: repeat(1, 26.875rem); }
-        .portfolio-section section.projects section {
-          width: 300px;
-          margin: 0;
-          margin-top: 20px; }
-          .portfolio-section section.projects section img {
-            height: 190px;
-            width: 300px;
-            margin-right: 0; }
-          .portfolio-section section.projects section div {
-            width: 300px;
-            height: 190px; }
-            .portfolio-section section.projects section div p {
-              color: #f0ffff;
-              text-align: center;
-              margin-top: 30px; }
+    height: 50rem;
+  }
+  .portfolio-section section {
+    height: 12.5rem;
+  }
+  .portfolio-section section.projects {
+    height: 25rem;
+    width: 300px;
+    display: block;
+    grid-template-columns: repeat(1, 26.875rem);
+  }
+  .portfolio-section section.projects section {
+    width: 300px;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .portfolio-section section.projects section img {
+    height: 190px;
+    width: 300px;
+    margin-right: 0;
+  }
+  .portfolio-section section.projects section div {
+    width: 300px;
+    height: 190px;
+  }
+  .portfolio-section section.projects section div p {
+    color: #f0ffff;
+    text-align: center;
+    margin-top: 30px;
+  }
 
   .contact-me {
     height: 9.375rem;
-    text-align: center; }
-    .contact-me i {
-      font-size: 1.25rem;
-      margin: 1.25rem;
-      height: 2.5rem;
-      width: 2.5rem;
-      padding: 0.625rem; }
-    .contact-me .menu-items {
-      font-size: 0.625rem;
-      word-spacing: 0.3125rem;
-      margin-top: 0.75rem; }
+    text-align: center;
+  }
+  .contact-me i {
+    font-size: 1.25rem;
+    margin: 1.25rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 0.625rem;
+  }
+  .contact-me .menu-items {
+    font-size: 0.625rem;
+    word-spacing: 0.3125rem;
+    margin-top: 0.75rem;
+  }
 
   footer {
     height: 3.125rem;
-    padding-top: 20px; }
-    footer p {
-      letter-spacing: 0.0313rem;
-      font-size: 0.5rem; } }
+    padding-top: 20px;
+  }
+  footer p {
+    letter-spacing: 0.0313rem;
+    font-size: 0.5rem;
+  }
+}
 .my-skills {
   display: grid;
   grid-gap: 100px;
-  grid-template-columns: repeat(4, 6.25rem); }
+  grid-template-columns: repeat(4, 6.25rem);
+}
 
 .experience-grid {
   display: grid;
   grid-gap: 1.25rem;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "education experience"; }
+  grid-template-areas: "education experience";
+}
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(3, 26.875rem); }
+  grid-template-columns: repeat(3, 26.875rem);
+}
 
 /*# sourceMappingURL=main.css.map */
