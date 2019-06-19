@@ -25,83 +25,88 @@
     }
 }    
 
-.hero {
-    height: 700px;
+.hero { 
+    height: 900px;
     background-image: linear-gradient($color-shadow-light, $color-shadow-light), url(../images/bg-image.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
 
-    section {
+	.heading { 
         margin-top: 5.625rem;
-        margin-left: 10rem
-    }
+        padding-left: 10rem;
 
-    span {
-        color: $color-prim;
-        font-family: 'Titillium Web';
-    }
+		h1 { 
+			.punctuation { 
+                color: $color-prim;
+                font-family: 'Titillium Web';
+			}
+		}
 
-    p {
-        margin-top: 1.875rem;
-        font-family: 'Abel';
-        color: $color-body;
-        font-size: 1.5625rem;
-        letter-spacing: 0.1875rem;
-    }
-}
+		.title { 
+            margin-top: 1.875rem;
+            font-family: 'Abel';
+            color: $color-body;
+            font-size: 1.5625rem;
+            letter-spacing: 0.1875rem;
+		}
+	}
 
-.about-me-block {
-    background-color: $cloud-burst;
-    padding: 16px;
-    width: 43.75rem;
-    height: 220px;
-    position: absolute;
-    top: 92.7%;
-    left: 11.5%;
-    p {
-        color: $color-body;
-        font-family: 'Abel';
+	.about-me-block { 
+        background-color:$color-text-blue;
+        padding: 16px;
+        width: 630px;
+        height: 300px;
+        margin-bottom: 0;
         font-size: 1.375rem;
-        margin-bottom: 8px;
-    } 
-        section {
+        position: static;
+        margin-left: 10rem;
+
+		.about-me { 
+            color: $color-body;
+            font-family: 'Abel';
+            font-size: 22px;
+            margin-bottom: 20px;
+            padding-top: 0;
+		}
+		.contact-details { 
             color: $color-prim;
             text-align: center;
             letter-spacing: 1px;
-            line-height: 30px;
-        }
-
-    
-    div {
-        text-align: center;
-        padding-top: 0.9375rem;
-      button {
-        background-color: $color-text-blue;
-        opacity: 0.8;
-        border: none;
-        margin: auto;
-        padding: 0.625rem;
-        border-radius: 0.3125rem;
-        width: 8.75rem;
-        &.pulse {
-            animation-name: pulse_animation;
-            animation-duration: 5000ms;
-            transform-origin:70% 70%;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-        }
-        a {
-            text-decoration: none;
-            color: $color-text-dark;
-            font-weight: bold;
+            line-height: 27px;
+            font-size: 15px;
+		}
+		.link-btns { 
+            text-align: center;
+            padding-top: 10px;
             margin: auto;
-            &:hover {
-                color: $color-text-light;
-            }
-            }
-        }
+            button {
+                opacity: 0.8;
+                font-size: 12px;
+                border: none;
+                padding: 0.3125rem;
+                border-radius: 0.3125rem;
+                width: 150px;
+                .pulse { 
+                    animation-name: pulse_animation;
+                    animation-duration: 5000ms;
+                    transform-origin:70% 70%;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: linear;
+                }
+				a { 
+                    text-decoration: none;
+                    color: $cloud-burst;
+                    font-size: 0.9375rem;
+                    font-weight: bold;
+                    margin: auto;
+                        &:hover {
+                            color: $color-text-light;
+				    }
+			    }
+		    }
+	    }
     }
 }
 

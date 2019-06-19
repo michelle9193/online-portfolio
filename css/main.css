@@ -117,77 +117,80 @@ footer p {
 }
 
 .hero {
-  height: 700px;
+  height: 900px;
   background-image: linear-gradient(rgba(144, 154, 181, 0.5), rgba(144, 154, 181, 0.5)), url(../images/bg-image.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.hero section {
+.hero .heading {
   margin-top: 5.625rem;
-  margin-left: 10rem;
+  padding-left: 10rem;
 }
-.hero span {
+.hero .heading h1 .punctuation {
   color: #ffff00c0;
   font-family: "Titillium Web";
 }
-.hero p {
+.hero .heading .title {
   margin-top: 1.875rem;
   font-family: "Abel";
   color: #f0ffff;
   font-size: 1.5625rem;
   letter-spacing: 0.1875rem;
 }
-
-.about-me-block {
-  background-color: #3d475f;
+.hero .about-me-block {
+  background-color: #909AB5;
   padding: 16px;
-  width: 43.75rem;
-  height: 220px;
-  position: absolute;
-  top: 92.7%;
-  left: 11.5%;
+  width: 630px;
+  height: 300px;
+  margin-bottom: 0;
+  font-size: 1.375rem;
+  position: static;
+  margin-left: 10rem;
 }
-.about-me-block p {
+.hero .about-me-block .about-me {
   color: #f0ffff;
   font-family: "Abel";
-  font-size: 1.375rem;
-  margin-bottom: 8px;
+  font-size: 22px;
+  margin-bottom: 20px;
+  padding-top: 0;
 }
-.about-me-block section {
+.hero .about-me-block .contact-details {
   color: #ffff00c0;
   text-align: center;
   letter-spacing: 1px;
-  line-height: 30px;
+  line-height: 27px;
+  font-size: 15px;
 }
-.about-me-block div {
+.hero .about-me-block .link-btns {
   text-align: center;
-  padding-top: 0.9375rem;
-}
-.about-me-block div button {
-  background-color: #909AB5;
-  opacity: 0.8;
-  border: none;
+  padding-top: 10px;
   margin: auto;
-  padding: 0.625rem;
-  border-radius: 0.3125rem;
-  width: 8.75rem;
 }
-.about-me-block div button.pulse {
+.hero .about-me-block .link-btns button {
+  opacity: 0.8;
+  font-size: 12px;
+  border: none;
+  padding: 0.3125rem;
+  border-radius: 0.3125rem;
+  width: 150px;
+}
+.hero .about-me-block .link-btns button .pulse {
   animation-name: pulse_animation;
   animation-duration: 5000ms;
   transform-origin: 70% 70%;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-.about-me-block div button a {
+.hero .about-me-block .link-btns button a {
   text-decoration: none;
-  color: #000;
+  color: #3d475f;
+  font-size: 0.9375rem;
   font-weight: bold;
   margin: auto;
 }
-.about-me-block div button a:hover {
+.hero .about-me-block .link-btns button a:hover {
   color: #f0ffff;
 }
 
@@ -393,82 +396,6 @@ footer p {
   color: #004d40;
 }
 
-@media only screen and (min-device-width: 1025px) and (max-device-width: 1339px) {
-  h1 {
-    font-size: 58px;
-  }
-
-  h2 {
-    padding-top: 3.75rem;
-    font-size: 2.8125rem;
-    letter-spacing: 0.25rem;
-    height: 9.375rem;
-  }
-
-  .nav-item {
-    text-transform: uppercase;
-    margin-right: 2.5rem;
-    letter-spacing: 0.0625rem;
-    font-weight: 500;
-  }
-
-  .hero {
-    height: 50rem;
-    background-image: linear-gradient(rgba(144, 154, 181, 0.5), rgba(144, 154, 181, 0.5)), url(../images/bg-image2.png);
-    background-position: left;
-  }
-  .hero section {
-    margin-top: 5.625rem;
-    margin-left: 60px;
-  }
-
-  .about-me-block {
-    border: none;
-    padding: 0.9375rem;
-    width: 478px;
-    top: 126%;
-    left: 0;
-  }
-  .about-me-block p {
-    font-size: 1.25rem;
-  }
-  .about-me-block section {
-    font-size: 0.9375rem;
-    letter-spacing: 0;
-    line-height: 22px;
-    margin-bottom: 0;
-  }
-
-  .my-skills-section {
-    height: 40rem;
-  }
-  .my-skills-section div {
-    margin: auto;
-    width: 20.625rem;
-  }
-  .my-skills-section div.my-skills {
-    grid-gap: 5rem;
-  }
-
-  .portfolio-section {
-    height: 50rem;
-  }
-  .portfolio-section section {
-    position: relative;
-    grid-template-columns: repeat(1, 62.5rem);
-    height: 12.5rem;
-    margin-bottom: 10px;
-  }
-  .portfolio-section section.projects {
-    height: 25rem;
-    width: 62.5rem;
-    margin: auto;
-  }
-  .portfolio-section section.projects section img {
-    height: 500px;
-    width: 500px;
-  }
-}
 @media only screen and (min-device-width: 1001px) and (max-device-width: 1024px) {
   h1 {
     font-size: 58px;
@@ -715,10 +642,10 @@ footer p {
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   h1 {
-    width: 14.0625rem;
-    letter-spacing: 0.4375rem;
-    line-height: 3.125rem;
-    font-size: 38px;
+    width: 180px;
+    letter-spacing: 5px;
+    line-height: 60px;
+    font-size: 30px;
   }
 
   h2 {
@@ -752,45 +679,72 @@ footer p {
   }
 
   .hero {
-    height: 565px;
-    background-position: left;
+    height: 600px;
+    background-image: linear-gradient(rgba(144, 154, 181, 0.5), rgba(144, 154, 181, 0.5));
   }
-  .hero section {
-    margin-top: 4.375rem;
-    margin-left: 3.75rem;
+  .hero .heading {
+    padding: 10px;
+    margin: 5px 0 0 50px;
   }
-  .hero p {
-    margin-top: 0.625rem;
-    line-height: 1.875rem;
-    font-size: 1.125rem;
-    letter-spacing: 0.1875rem;
+  .hero .heading h1 .punctuation {
+    color: #ffff00c0;
+    font-family: "Titillium Web";
   }
-
-  .about-me-block {
-    background-color: #3d475f;
-    padding: 0.9375rem 1.125rem;
+  .hero .heading .title {
+    margin-top: 15px;
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+  .hero .about-me-block {
+    background-color: #909AB5;
+    padding: 16px;
     width: auto;
-    height: 200px;
-    position: absolute;
-    top: 82%;
-    left: 0;
+    height: 280px;
+    margin: 0;
+    position: static;
   }
-  .about-me-block p {
+  .hero .about-me-block .about-me {
     color: #f0ffff;
     font-family: "Abel";
     font-size: 15px;
+    margin-bottom: 5px;
+    padding-top: 0;
   }
-  .about-me-block section {
-    font-size: 12px;
-    letter-spacing: 0;
-    line-height: 19px;
+  .hero .about-me-block .contact-details {
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 10px;
+    margin-bottom: 0;
   }
-  .about-me-block div button {
+  .hero .about-me-block .link-btns {
+    text-align: center;
+    padding-top: 10px;
+    margin: auto;
+  }
+  .hero .about-me-block .link-btns button {
+    opacity: 0.8;
+    font-size: 10px;
+    border: none;
     padding: 0.3125rem;
-    width: 6.25rem;
+    border-radius: 0.3125rem;
+    width: 110px;
   }
-  .about-me-block div button a {
-    font-size: 0.875rem;
+  .hero .about-me-block .link-btns button .pulse {
+    animation-name: pulse_animation;
+    animation-duration: 5000ms;
+    transform-origin: 70% 70%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  .hero .about-me-block .link-btns button a {
+    text-decoration: none;
+    color: #3d475f;
+    font-size: 0.9375rem;
+    font-weight: bold;
+    margin: auto;
+  }
+  .hero .about-me-block .link-btns button a:hover {
+    color: #f0ffff;
   }
 
   .my-skills-section {
@@ -889,10 +843,10 @@ footer p {
 }
 @media only screen and (min-device-width: 200px) and (max-device-width: 319px) {
   h1 {
-    width: 14.0625rem;
-    letter-spacing: 0.4375rem;
-    line-height: 3.125rem;
-    font-size: 38px;
+    width: 180px;
+    letter-spacing: 5px;
+    line-height: 60px;
+    font-size: 30px;
   }
 
   h2 {
@@ -923,46 +877,72 @@ footer p {
   }
 
   .hero {
-    height: 31.25rem;
-    background-position: left;
+    height: 600px;
+    background-image: linear-gradient(rgba(144, 154, 181, 0.5), rgba(144, 154, 181, 0.5));
   }
-  .hero section {
-    margin-top: 3.4375rem;
-    margin-left: 1.875rem;
+  .hero .heading {
+    padding: 10px;
+    margin: 5px 0 0 50px;
   }
-  .hero p {
-    margin-top: 0.625rem;
-    line-height: 1.875rem;
-    font-size: 1.125rem;
-    letter-spacing: 0.1875rem;
+  .hero .heading h1 .punctuation {
+    color: #ffff00c0;
+    font-family: "Titillium Web";
   }
-
-  .about-me-block {
-    background-color: #3d475f;
-    padding: 0.8125rem 0.9375rem;
-    width: 300px;
-    height: 193px;
-    position: absolute;
-    top: 70%;
-    left: 0;
+  .hero .heading .title {
+    margin-top: 15px;
+    font-size: 17px;
+    letter-spacing: 1px;
   }
-  .about-me-block p {
+  .hero .about-me-block {
+    background-color: #909AB5;
+    padding: 16px;
+    width: auto;
+    height: 280px;
+    margin: 0;
+    position: static;
+  }
+  .hero .about-me-block .about-me {
     color: #f0ffff;
     font-family: "Abel";
     font-size: 15px;
+    margin-bottom: 5px;
+    padding-top: 0;
+  }
+  .hero .about-me-block .contact-details {
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 10px;
     margin-bottom: 0;
   }
-  .about-me-block section {
-    font-size: 12px;
-    letter-spacing: 0;
-    line-height: 19px;
+  .hero .about-me-block .link-btns {
+    text-align: center;
+    padding-top: 10px;
+    margin: auto;
   }
-  .about-me-block div button {
+  .hero .about-me-block .link-btns button {
+    opacity: 0.8;
+    font-size: 10px;
+    border: none;
     padding: 0.3125rem;
-    width: 6.25rem;
+    border-radius: 0.3125rem;
+    width: 110px;
   }
-  .about-me-block div button a {
-    font-size: 0.875rem;
+  .hero .about-me-block .link-btns button .pulse {
+    animation-name: pulse_animation;
+    animation-duration: 5000ms;
+    transform-origin: 70% 70%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  .hero .about-me-block .link-btns button a {
+    text-decoration: none;
+    color: #3d475f;
+    font-size: 0.9375rem;
+    font-weight: bold;
+    margin: auto;
+  }
+  .hero .about-me-block .link-btns button a:hover {
+    color: #f0ffff;
   }
 
   .my-skills-section {
