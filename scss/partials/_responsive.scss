@@ -85,99 +85,449 @@
 
 // ------------------- //
 @media only screen 
-  and (min-device-width: 1001px) 
-  and (max-device-width: 1024px) {
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1439px) {
 
-    h1 {
-        font-size: 58px;
+    nav {
+        padding-left: 60px;
     }
-
-    h2 {
-        padding-top: 3.75rem;
-        font-size: 2.8125rem;
-        letter-spacing: 0.25rem;
-        height: 9.375rem;
-    }
-    
+           
     .nav-item {
         text-transform: uppercase;
-        margin-right: 2.5rem; 
+        margin-right: 10%;
         letter-spacing: 0.0625rem;
         font-weight: 500;
     }
-
-    .hero {
-        height: 50rem;
-        background-image: linear-gradient($color-shadow-light, $color-shadow-light), url(../images/bg-image2.png); 
-        background-position: left;
-        section {
-            margin-top: 5.625rem;
-            margin-left: 60px
-        }
-    }
-    .about-me-block {
-        border: none;
-        padding: 0.9375rem;
-        width: 478px;
-        top: 122.75%;
-        left: 0;
-        p {
-            font-size: 1.25rem;
-        }
-        section {
-            font-size: 0.9375rem;
-            letter-spacing: 0;
-            line-height: 22px;
-            margin-bottom: 0;
-        }
-
-        div {
-            button {
-                padding: 7px;
-            }
-        }
-    }
-
-    .my-skills-section {
-        height: 40rem;       
-        div {
-            margin: auto;
-            width: 20.625rem;
-            &.my-skills{
-                grid-gap: 5rem;
-            }
-        }
-    }
     
-    .portfolio-section {
-        height: 50rem;
-        section {
+    .nav-link {
+        color: rgba(0,0,0,.5);
+        
+        &:hover {
             position: relative;
-            grid-template-columns: repeat(1, 62.5rem);
-            height: 12.5rem;
-            margin-bottom: 10px;
-            &.projects {
-                height: 25rem;
-                width: 62.5rem;
+            border-bottom: 0.125rem dotted $color-prim;
+            height: 2.5rem;
+            color: $color-text-dark;
+        }
+    } 
+
+    h1 {
+        width: 320px;
+        line-height: 5rem;
+        height: 15.625rem;
+        font-size: 3.75rem;
+        letter-spacing: 0.3125rem;
+    }
+
+    h2 {
+        padding-top: 2.5rem;
+        font-size: 2.8125rem;
+        letter-spacing: 0.3125rem;
+        height: 7.5rem;
+        &.skills {
+            height: 9.0625rem;  
+            padding-top: 2.5rem;     
+        }
+    }
+
+
+    h3 {
+        text-align: center;
+        letter-spacing: 0.625rem;  
+        font-size: 1.875rem;
+    } 
+
+    h4 {
+        text-align: center;
+        font-size: 1.125rem;
+        margin: 1.25rem 0;
+        letter-spacing: 0.1875rem;
+    }
+
+    .hero { 
+        height: 800px;
+        background-color: $color-shadow-light;
+        background-image: none;
+            
+        .heading { 
+            padding: 10px;
+            margin: 30px 0 0 50px;
+                    
+            .title { 
+                margin-top: 15px;
+                font-size: 20px;
+                letter-spacing: 1px;
+            }
+        }
+
+        .about-me-block { 
+            background-color:$color-text-blue;
+            padding: 16px;
+            width: auto;
+            height: 180px;
+            margin: 0;
+            
+            .about-me { 
+                color: $color-body;
+                font-family: 'Abel';
+                font-size: 18px;
+                margin-bottom: 5px;
+                padding-top: 0;
+            }
+            .contact-details { 
+                letter-spacing: 1px;
+                line-height: 23px;
+                font-size: 14px;
+                margin-bottom: 0;
+            }
+            .link-btns { 
+                text-align: center;
+                padding-top: 10px;
                 margin: auto;
-                section {
-                   img {
-                        height: 500px;
-                        width: 500px;
+                button {
+                    opacity: 0.8;
+                    font-size: 10px;
+                    border: none;
+                    padding: 0.3125rem;
+                    border-radius: 0.3125rem;
+                    width: 110px;
+                    .pulse { 
+                        animation-name: pulse_animation;
+                        animation-duration: 5000ms;
+                        transform-origin:70% 70%;
+                        animation-iteration-count: infinite;
+                        animation-timing-function: linear;
+                    }
+                    a { 
+                        text-decoration: none;
+                        color: $cloud-burst;
+                        font-size: 0.9375rem;
+                        font-weight: bold;
+                        margin: auto;
+                            &:hover {
+                                color: $color-text-light;
+                        }
                     }
                 }
             }
         }
     }
-    
 
+    .my-skills-section {
+        height: 600px; 
+        background-position: right;
+
+        div {
+            margin: 0 auto;
+            width: auto;
+            &.my-skills{
+                grid-gap: 50px;
+                grid-template-columns: repeat(4, auto);
+                width: 28.75rem;
+                }
+            }
+        }
+
+    .experience-section {
+        width: auto;
+        padding: 60px 20px;  
+
+        .experience-grid {
+            margin: 0 auto;
+            width: auto;
+            display: block; 
+
+            p {
+                text-align: center;
+            }
+            
+            p:nth-of-type(odd) {
+                font-weight: bold;
+                line-height: 1.5625rem;
+            }
+        
+                p:nth-of-type(even) {
+                    height: 3.125rem;
+                }
+            
+
+            div:nth-of-type(even) {
+            margin: 0;
+            }
+        }
+    }
+
+    .portfolio-section {
+        height: 840px;
+        section {
+            height: 12.5rem;
+            &.projects {
+                width: 450px;
+                display: block;
+                grid-template-columns: 1fr;
+                section {
+                    width: 450px;
+                    margin: 0;
+                    margin-top: 20px;
+                    img {
+                        height: 200px;
+                        width: 700px;
+                        margin-right: 0;
+                    }
+                    div {
+                        width: 450px;
+                        height: 200px;
+                    }
+                }
+            }
+        }
+    }
+
+    .contact-me {
+        height: 9.375rem;
+        text-align: center;
+        i {
+            font-size: 1.25rem;
+            margin: 1.25rem;
+            height: 2.5rem;
+            width: 2.5rem;
+            padding: 0.625rem;
+        }
+
+        .menu-items {
+            font-size: 0.75rem;
+            word-spacing: 0.3125rem;
+            margin-top: 0.75rem;
+        }
+    }
+
+    footer {
+        p {
+            font-size: 12px;
+        }
+    }
 }
 
+// ---------------------------------------------------- //
 
+@media only screen  
+    and (min-device-width: 768px)
+    and (max-device-width: 1023px) {
 
+        nav {
+            padding-left: 60px;
+        }
+               
+        .nav-item {
+            text-transform: uppercase;
+            margin-right: 10%;
+            letter-spacing: 0.0625rem;
+            font-weight: 500;
+        }
+        
+        .nav-link {
+            color: rgba(0,0,0,.5);
+            
+            &:hover {
+                position: relative;
+                border-bottom: 0.125rem dotted $color-prim;
+                height: 2.5rem;
+                color: $color-text-dark;
+            }
+        } 
+
+    h1 {
+        width: 320px;
+        line-height: 5rem;
+        height: 15.625rem;
+        font-size: 3.75rem;
+        letter-spacing: 0.3125rem;
+    }
+
+    h3 {
+        text-align: center;
+        letter-spacing: 0.625rem;  
+        font-size: 1.875rem;
+    } 
+    
+    h4 {
+        text-align: center;
+        font-size: 1.125rem;
+        margin: 1.25rem 0;
+        letter-spacing: 0.1875rem;
+    }
+
+    .hero { 
+        height: 800px;
+        background-color: $color-shadow-light;
+        background-image: none;
+            
+        .heading { 
+            padding: 10px;
+            margin: 30px 0 0 50px;
+                    
+            .title { 
+                margin-top: 15px;
+                font-size: 20px;
+                letter-spacing: 1px;
+            }
+        }
+    
+        .about-me-block { 
+            background-color:$color-text-blue;
+            padding: 16px;
+            width: auto;
+            height: 220px;
+            margin: 0;
+            
+            .about-me { 
+                color: $color-body;
+                font-family: 'Abel';
+                font-size: 18px;
+                margin-bottom: 5px;
+                padding-top: 0;
+            }
+            .contact-details { 
+                letter-spacing: 1px;
+                line-height: 23px;
+                font-size: 14px;
+                margin-bottom: 0;
+            }
+            .link-btns { 
+                text-align: center;
+                padding-top: 10px;
+                margin: auto;
+                button {
+                    opacity: 0.8;
+                    font-size: 10px;
+                    border: none;
+                    padding: 0.3125rem;
+                    border-radius: 0.3125rem;
+                    width: 110px;
+                    .pulse { 
+                        animation-name: pulse_animation;
+                        animation-duration: 5000ms;
+                        transform-origin:70% 70%;
+                        animation-iteration-count: infinite;
+                        animation-timing-function: linear;
+                    }
+                    a { 
+                        text-decoration: none;
+                        color: $cloud-burst;
+                        font-size: 0.9375rem;
+                        font-weight: bold;
+                        margin: auto;
+                            &:hover {
+                                color: $color-text-light;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .my-skills-section {
+        height: 700px; 
+        background-position: right;
+
+        div {
+            margin: 0 auto;
+            width: auto;
+            &.my-skills{
+                grid-gap: 50px;
+                grid-template-columns: repeat(3, auto);
+                width: 28.75rem;
+                }
+            }
+        }
+
+    .experience-section {
+        width: auto;
+        padding: 60px 20px;  
+
+        .experience-grid {
+            margin: 0 auto;
+            width: auto;
+            display: block; 
+
+            p {
+                text-align: center;
+            }
+            
+            p:nth-of-type(odd) {
+                font-weight: bold;
+                line-height: 1.5625rem;
+            }
+        
+                p:nth-of-type(even) {
+                    height: 3.125rem;
+                }
+            
+
+            div:nth-of-type(even) {
+            margin: 0;
+            }
+        }
+    }
+
+    .portfolio-section {
+        height: 50rem;
+        section {
+            height: 12.5rem;
+            &.projects {
+                width: 450px;
+                display: block;
+                grid-template-columns: 1fr;
+                section {
+                    width: 450px;
+                    margin: 0;
+                    margin-top: 20px;
+                    img {
+                        height: 200px;
+                        width: 700px;
+                        margin-right: 0;
+                    }
+                    div {
+                        width: 450px;
+                        height: 200px;
+                    }
+                }
+            }
+        }
+    }
+
+    .contact-me {
+        height: 9.375rem;
+        text-align: center;
+        i {
+            font-size: 1.25rem;
+            margin: 1.25rem;
+            height: 2.5rem;
+            width: 2.5rem;
+            padding: 0.625rem;
+        }
+
+        .menu-items {
+            font-size: 0.75rem;
+            word-spacing: 0.3125rem;
+            margin-top: 0.75rem;
+        }
+    }
+
+    footer {
+        height: 3.125rem;
+        padding-top: 20px;
+        p {
+            letter-spacing: 0.0313rem;
+            font-size: 0.5rem;
+        }
+    }
+}
+    
+
+// ------------------------------------------------------ //
 @media only screen 
     and (min-device-width: 481px)
-    and (max-device-width: 1000px) {
+    and (max-device-width: 767px) {
     
         h1 {
             width: 15.625rem;
@@ -211,46 +561,68 @@
             letter-spacing: 0.1875rem;
         }
 
-        .hero {
-            height: 43.75rem;
-            background-image: linear-gradient($color-shadow-light, $color-shadow-light), url(../images/profile-image.png);
-                    
-            section {
-                margin-left: 5rem
-            }        
-            p {
-                margin-top: 0;
-                font-size: 1.25rem;
-                width: 18.75rem;
-                letter-spacing: 0.1875rem;
-                line-height: 1.875rem
+        .hero { 
+            height: 600px;
+            background-color: $color-shadow-light;
+            background-image: none;
+                
+            .heading { 
+                padding: 10px;
+                margin: 30px 0 0 50px;
+                        
+                .title { 
+                    margin-top: 15px;
+                    font-size: 20px;
+                    letter-spacing: 1px;
+                }
             }
-        }
-
-        .about-me-block {
-            padding: 0.9375rem;
-            width: auto;
-            height: 200px;
-            position: absolute;
-            top: 105%;
-            left: 0;
-            p {
-                font-size: 1.125rem;
-            }
-            section {
-                font-size: 0.9375rem;
-                letter-spacing: 0;
-                line-height: 22px;
-                margin-bottom: 15px;
-            }
-            div {
-                padding: 0;
-            
-                button {
-                    padding: 5px;
-                    width: 6.25rem;
-                    a {
-                        font-size: 0.875rem;
+        
+            .about-me-block { 
+                background-color:$color-text-blue;
+                padding: 16px;
+                width: auto;
+                height: 220px;
+                margin: 0;
+                
+                .about-me { 
+                    font-size: 16px;
+                    margin-bottom: 5px;
+                    padding-top: 0;
+                }
+                .contact-details { 
+                    letter-spacing: 1px;
+                    line-height: 23px;
+                    font-size: 12px;
+                    margin-bottom: 0;
+                }
+                .link-btns { 
+                    text-align: center;
+                    padding-top: 10px;
+                    margin: auto;
+                    button {
+                        opacity: 0.8;
+                        font-size: 10px;
+                        border: none;
+                        padding: 0.3125rem;
+                        border-radius: 0.3125rem;
+                        width: 110px;
+                        .pulse { 
+                            animation-name: pulse_animation;
+                            animation-duration: 5000ms;
+                            transform-origin:70% 70%;
+                            animation-iteration-count: infinite;
+                            animation-timing-function: linear;
+                        }
+                        a { 
+                            text-decoration: none;
+                            color: $cloud-burst;
+                            font-size: 0.9375rem;
+                            font-weight: bold;
+                            margin: auto;
+                                &:hover {
+                                    color: $color-text-light;
+                            }
+                        }
                     }
                 }
             }
@@ -382,7 +754,7 @@
     }
 
     h3 {
-        text-align: left;
+        text-align: center;
         letter-spacing: 0.625rem;  
         font-size: 1.5625rem;
     } 
@@ -391,20 +763,14 @@
         font-size: 1.125rem;
         margin: 1.25rem 0;
         letter-spacing: 0.1875rem;
-    }
-
-    .navbar-brand {
-    width: 20%; 
-
-        .logo {
-            width: 70%;
-        }
+        text-align: center;
     }
 
     .hero { 
         height: 600px;
-        background-image: linear-gradient($color-shadow-light, $color-shadow-light);
-            
+        background-color: $color-shadow-light;
+        background-image: none;
+
         .heading { 
             padding: 10px;
             margin: 5px 0 0 50px;
@@ -503,6 +869,10 @@
         width: auto;
         padding: 20px 20px;  
 
+        p {
+            text-align: center;
+        }
+        
         .experience-grid {
             margin: 0 auto;
             width: auto;
@@ -610,17 +980,12 @@
         margin: 1.25rem 0;
         letter-spacing: 0.1875rem;
     }
-
-    .navbar-brand {
-        .logo {
-            width: 50%;
-        }
-    }
-    
+  
     .hero { 
         height: 600px;
-        background-image: linear-gradient($color-shadow-light, $color-shadow-light);
-            
+        background-color: $color-shadow-light;
+        background-image: none;
+
         .heading { 
             padding: 10px;
             margin: 5px 0 0 50px;
