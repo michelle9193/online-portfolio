@@ -18,7 +18,7 @@
 
 .hero { 
     height: 900px;
-    background-image: linear-gradient($color-shadow-light, $color-shadow-light), url(../images/bg-image.png);
+    background-image: linear-gradient($color-shadow-light, $color-shadow-light), url(../images/bg-image2.png); 
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -47,7 +47,7 @@
 	.about-me-block { 
         background-color:$color-text-blue;
         padding: 16px;
-        width: 630px;
+        width: auto;
         height: 300px;
         margin-bottom: 0;
         font-size: 1.375rem;
